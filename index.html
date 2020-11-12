@@ -1,0 +1,527 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>NSA Component Library</title>
+  <meta name="description" content="NSA Component Library">
+
+  <!-- UIKit CSS -->
+  <link rel="stylesheet" href="/css/site.css">
+  <!-- UIKit JS -->
+  <script src="/js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+
+</head>
+
+<body>
+  <div class="uk-container">
+    <h1 class="uk-margin-large-top">Typography</h1>
+    <div class="uk-child-width-1-3@m" uk-grid>
+      <div>
+        <h6>Heading 6</h6>
+        <h5>Heading 5</h5>
+        <h4>Heading 4</h4>
+        <h3>Heading 3</h3>
+        <h2>Heading 2</h2>
+        <h1>Heading 1</h1>
+      </div>
+      <div>
+        <p>Body Text</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Amet nisl suscipit adipiscing bibendum est.</p>
+        <p>Text can be <b>bold</b> or <i>italicized</i>, <u>underlined</u> or with a <s>strikethrough</s>. There is also
+          <ins>inserted text</ins> and <code>code</code>.</p>
+        <p class="uk-text-lead">This is leading text.</p>
+        <p class="uk-text-meta">This is meta text.</p>
+      </div>
+      <div>
+        <p class="uk-text-muted">This is muted text.</p>
+        <p class="uk-text-emphasis">This text is emphasized.</p>
+        <p class="uk-text-primary">This text is emphasized with the primary color.</p>
+        <p class="uk-text-secondary">This text is emphasized with the secondary color.</p>
+        <p class="uk-text-success">This text indicates success.</p>
+        <p class="uk-text-warning">This text indicates a warning.</p>
+        <p class="uk-text-danger">This text indicates failure.</p>
+        <blockquote cite="#">
+          <p class="uk-margin-small-bottom">The blockquote element represents content that is quoted from another
+            source, optionally with a citation which must be within a footer or cite element.</p>
+          <footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="uk-section">
+    <div class="uk-container">
+      <h1>Buttons</h1>
+      <div class="uk-child-width-1-3@m" uk-grid>
+        <div uk-margin>
+          <button class="uk-button uk-button-default">Default</button>
+          <button class="uk-button uk-button-primary">Primary</button>
+          <button class="uk-button uk-button-secondary">Secondary</button>
+          <button class="uk-button uk-button-danger">Danger</button>
+          <button class="uk-button uk-button-text">Text</button>
+          <button class="uk-button uk-button-link">Link</button>
+        </div>
+        <div uk-margin>
+          <button class="uk-button uk-button-default uk-button-small">Small button</button>
+          <button class="uk-button uk-button-primary uk-button-small">Small button</button>
+          <button class="uk-button uk-button-secondary uk-button-small">Small button</button>
+          <button class="uk-button uk-button-default uk-button-large">Large button</button>
+          <button class="uk-button uk-button-primary uk-button-large">Large button</button>
+          <button class="uk-button uk-button-secondary uk-button-large">Large button</button>
+        </div>
+        <div uk-margin>
+          <div class="uk-button-group">
+            <button class="uk-button uk-button-secondary">Button</button>
+            <button class="uk-button uk-button-secondary">Button</button>
+            <button class="uk-button uk-button-secondary">Button</button>
+          </div>
+          <div class="uk-inline">
+            <button class="uk-button uk-button-default" type="button">Dropdown</button>
+            <div uk-dropdown>
+              <ul class="uk-nav uk-dropdown-nav">
+                <li class="uk-active"><a href="#">Active</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+                <li class="uk-nav-divider"></li>
+                <li><a href="#">Item</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="uk-button-group">
+            <button class="uk-button uk-button-default">Dropdown</button>
+            <div class="uk-inline">
+              <button class="uk-button uk-button-default" type="button"><span
+                  uk-icon="icon:  triangle-down"></span></button>
+              <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
+                <ul class="uk-nav uk-dropdown-nav">
+                  <li class="uk-active"><a href="#">Active</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li class="uk-nav-header">Header</li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li class="uk-nav-divider"></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-section">
+    <div class="uk-container">
+      <h1>Tables</h1>
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <table class="uk-table">
+            <caption>Table Caption</caption>
+            <thead>
+              <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <tr>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+                <td>Table Footer</td>
+              </tr>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table class="uk-table uk-table-divider">
+            <thead>
+              <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table class="uk-table uk-table-striped">
+            <thead>
+              <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table class="uk-table uk-table-hover uk-table-divider">
+            <thead>
+              <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table class="uk-table uk-table-small uk-table-divider">
+            <thead>
+              <tr>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Table Data</td>
+                <td>Table Data</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <table class="uk-table uk-table-justify uk-table-divider">
+            <thead>
+              <tr>
+                <th class="uk-width-small">Table Heading</th>
+                <th>Table Heading</th>
+                <th>Table Heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Table Data</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua.</td>
+                <td><button class="uk-button uk-button-default" type="button">Button</button></td>
+              </tr>
+              <tr>
+                <td>Table Data</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                  et dolore magna aliqua.</td>
+                <td><button class="uk-button uk-button-default" type="button">Button</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="uk-section">
+    <div class="uk-container">
+      <h1>Forms</h1>
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <form>
+            <fieldset class="uk-fieldset">
+
+              <legend class="uk-legend">Legend</legend>
+
+              <div class="uk-margin">
+                <input class="uk-input" type="text" placeholder="Input">
+              </div>
+
+              <div class="uk-margin">
+                <select class="uk-select">
+                  <option>Option 01</option>
+                  <option>Option 02</option>
+                </select>
+              </div>
+
+              <div class="uk-margin">
+                <textarea class="uk-textarea" rows="5" placeholder="Textarea"></textarea>
+              </div>
+
+              <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                <label><input class="uk-radio" type="radio" name="radio2" checked> A</label>
+                <label><input class="uk-radio" type="radio" name="radio2"> B</label>
+              </div>
+
+              <div class="uk-margin uk-grid-small uk-child-width-auto uk-grid">
+                <label><input class="uk-checkbox" type="checkbox" checked> A</label>
+                <label><input class="uk-checkbox" type="checkbox"> B</label>
+              </div>
+
+              <div class="uk-margin">
+                <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+              </div>
+
+            </fieldset>
+          </form>
+        </div>
+        <div>
+          <div class="uk-margin">
+            <input class="uk-input uk-form-danger uk-form-width-medium" type="text" placeholder="form-danger"
+              value="form-danger">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-success uk-form-width-medium" type="text" placeholder="form-success"
+              value="form-success">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="disabled" value="disabled" disabled>
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium uk-form-large" type="text" placeholder="Large">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="Default">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium uk-form-small" type="text" placeholder="Small">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-large" type="text" placeholder="Large">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-medium" type="text" placeholder="Medium">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-small" type="text" placeholder="Small">
+          </div>
+
+          <div class="uk-margin">
+            <input class="uk-input uk-form-width-xsmall" type="text" placeholder="X-Small">
+          </div>
+
+          <div class="uk-margin">
+            <div class="uk-inline">
+              <span class="uk-form-icon" uk-icon="icon: user"></span>
+              <input class="uk-input" type="text">
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <div class="uk-inline">
+              <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+              <input class="uk-input" type="text">
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <div uk-form-custom>
+              <input type="file">
+              <button class="uk-button uk-button-default" type="button" tabindex="-1">Select</button>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <span class="uk-text-middle">Here is a text</span>
+            <div uk-form-custom>
+              <input type="file">
+              <span class="uk-link">upload</span>
+            </div>
+          </div>
+
+          <div class="uk-margin" uk-margin>
+            <div uk-form-custom="target: true">
+              <input type="file">
+              <input class="uk-input uk-form-width-medium" type="text" placeholder="Select file" disabled>
+            </div>
+            <button class="uk-button uk-button-default">Submit</button>
+          </div>
+
+          <div class="uk-margin">
+            <div uk-form-custom="target: true">
+              <select>
+                <option value="1">Option 01</option>
+                <option value="2">Option 02</option>
+                <option value="3">Option 03</option>
+                <option value="4">Option 04</option>
+              </select>
+              <span></span>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <div uk-form-custom="target: > * > span:last-child">
+              <select>
+                <option value="1">Option 01</option>
+                <option value="2">Option 02</option>
+                <option value="3">Option 03</option>
+                <option value="4">Option 04</option>
+              </select>
+              <span class="uk-link">
+                <span uk-icon="icon: pencil"></span>
+                <span></span>
+              </span>
+            </div>
+          </div>
+
+          <div class="uk-margin">
+            <div uk-form-custom="target: > * > span:first-child">
+              <select>
+                <option value="">Please select...</option>
+                <option value="1">Option 01</option>
+                <option value="2">Option 02</option>
+                <option value="3">Option 03</option>
+                <option value="4">Option 04</option>
+              </select>
+              <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                <span></span>
+                <span uk-icon="icon: chevron-down"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uk-child-width-1-2@m" uk-grid>
+        <div>
+          <h3>Stacked Form</h3>
+          <form class="uk-form-stacked">
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-text">Text</label>
+              <div class="uk-form-controls">
+                <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-stacked-select">Select</label>
+              <div class="uk-form-controls">
+                <select class="uk-select" id="form-stacked-select">
+                  <option>Option 01</option>
+                  <option>Option 02</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <div class="uk-form-label">Radio</div>
+              <div class="uk-form-controls">
+                <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+        <div>
+          <h3>Horizontal Form</h3>
+          <form class="uk-form-horizontal uk-margin-large">
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-horizontal-text">Text</label>
+              <div class="uk-form-controls">
+                <input class="uk-input" id="form-horizontal-text" type="text" placeholder="Some text...">
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <label class="uk-form-label" for="form-horizontal-select">Select</label>
+              <div class="uk-form-controls">
+                <select class="uk-select" id="form-horizontal-select">
+                  <option>Option 01</option>
+                  <option>Option 02</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="uk-margin">
+              <div class="uk-form-label">Radio</div>
+              <div class="uk-form-controls uk-form-controls-text">
+                <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
+                <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

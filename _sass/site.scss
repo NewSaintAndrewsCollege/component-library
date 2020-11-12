@@ -1,0 +1,137 @@
+// 1. Your custom variables and variable overwrites.
+$global-font-family: 'Open Sans', sans-serif;
+$base-heading-font-family: 'EB Garamond', serif;
+$global-font-size: 18px;
+$global-color: #303030;
+$base-em-color: $global-color;
+$base-body-font-weight: 400;
+$global-primary-background: #0d3666;
+$base-heading-color: $global-primary-background;
+$global-secondary-background: #eeeeee;
+$nav-header-text-transform: none !important;
+$inverse-global-color: #fff;
+$inverse-global-muted-color: #fff;
+$global-xxlarge-font-size: 34px;
+$navbar-background: $global-primary-background;
+$button-large-padding-horizontal: 20px;
+$navbar-dropdown-background: $global-primary-background;
+$navbar-dropdown-nav-item-color: rgb(181, 181, 181);
+$navbar-dropdown-nav-item-hover-color: #ffffff;
+$overlay-primary-background: rgba(#1e1e1e, 0.6);
+$text-primary-color: #c55f0d;
+$global-line-height: 1.5;
+$button-large-line-height: $global-font-size * $global-line-height;
+
+// 2. Import default variables and available mixins.
+@import "uikit/variables-theme.scss";
+@import "uikit/mixins-theme.scss";
+
+$navbar-nav-item-color: $global-inverse-color;
+
+// 3. Your custom mixin overwrites.
+// @mixin hook-card() { color: #000; }
+@mixin hook-navbar(){
+    .uk-navbar-nav > li > a {
+        text-transform: none;
+    }
+}
+
+@mixin hook-button-large(){
+    font-size: $global-font-size;
+    font-weight: 400;
+    padding-top: (53px - $global-font-size * $global-line-height) / 2;
+    padding-bottom: (53px - $global-font-size * $global-line-height) / 2;
+}
+
+@mixin hook-button(){
+    border-radius: 3px;
+}
+
+@mixin hook-inverse-button-primary(){
+    background-color: white;
+    transition: .2s;
+    color: #02264d;
+}
+
+@mixin hook-inverse-button-primary-hover(){
+    background-color: #02264d;
+    color: white;
+    transition: .2s;
+}
+
+@mixin hook-button-primary(){
+    background-color: #02264d;
+    transition: .2s;
+}
+
+@mixin hook-button-primary-hover(){
+    background-color: white;
+    color: #02264d;
+    transition: .2s;
+}
+
+@mixin hook-inverse-component-text() {
+    .uk-text-primary {
+        color: #c55f0d;
+    }
+}
+.uk-modal-page { overflow: visible !important; }
+.uk-modal-page > body { overflow-y: visible !important;overflow-x: hidden !important; }
+
+// 4. Import UIkit.
+@import "uikit/uikit-theme.scss";
+
+.orange-underline {
+    text-decoration: underline rgba(240,84,35,0.75);
+    // safari
+    -webkit-text-decoration: underline rgba(240,84,35,0.75);
+}
+
+.srt-block-quote {
+    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
+    font-size: 44px !important;
+}
+
+.srt-block-quote {
+    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
+    font-size: 44px !important;
+}
+
+.srt-block-quote-small {
+    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
+    font-size: 31px !important;
+}
+
+.srt-divider-top {
+    border-top: 5px solid #828282 !important;
+}
+
+.uk-navbar-dropdown {
+    border: 1px solid #ffffff !important;
+}
+
+@media only screen and (max-width: 959px) {
+    #header-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+
+    #header-content {
+        position: static !important;
+    }
+
+    #header-content h1 {
+        font-size: 2rem;
+    }
+}
+
+.hover-tile:hover {
+    background-color: #838383 !important;
+    -webkit-transition: background-color 500ms ease;
+    -ms-transition: background-color 500ms ease;
+    transition: background-color 500ms ease;
+}
