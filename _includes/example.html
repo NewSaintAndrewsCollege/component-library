@@ -5,7 +5,7 @@
   </ul>
   <ul class="uk-switcher uk-margin">
       <li>{{ include.content }}</li>
-      <li>{% highlight html %}{{ include.content }}{% endhighlight %}</li>
+      <li><pre><code class="html">{{ include.content | escape }}</code></pre></li>
   </ul>
   <div class="uk-position-top-right uk-margin-small-top">
       <ul class="uk-iconnav">

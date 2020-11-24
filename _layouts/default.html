@@ -13,9 +13,17 @@
   <script src="{{ 'js/uikit.min.js' | relative_url }}"></script>
   <script src="{{ 'js/uikit-icons.min.js' | relative_url }}"></script>
 
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/styles/default.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/highlight.min.js"></script>
+<!-- and it's easy to individually load additional languages -->
+<script charset="UTF-8"
+ src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.0/languages/go.min.js"></script>
+
 </head>
 
 <body>
+<script>hljs.initHighlightingOnLoad();</script>
   <nav style="z-index: 1;" class="uk-width-1-1 uk-position-fixed uk-navbar-container uk-margin uk-navbar" uk-navbar="">
     <div class="uk-navbar-center">
       <a class="uk-navbar-item uk-logo" href="#">NSA Website Component Library</a>
