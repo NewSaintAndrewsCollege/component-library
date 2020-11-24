@@ -5,7 +5,7 @@ layout: component
 <div class="uk-section">
   <div class="uk-container">
     {% for component in site.components %}
-    <a href="{{ component.url }}">{{ component.component }}</a>
+    <a href="{{ component.url | relative_url }}">{{ component.component }}</a>
     {% endfor %}
   </div>
 </div>
