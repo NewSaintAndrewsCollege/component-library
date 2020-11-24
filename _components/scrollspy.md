@@ -126,7 +126,7 @@ You can also give each target a separate `cls` option. Just add the `uk-scrollsp
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option        | Value   | Default               | Description                                                                                                   |
 |:--------------|:--------|:----------------------|:--------------------------------------------------------------------------------------------------------------|
@@ -147,7 +147,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 
@@ -183,7 +183,7 @@ For an example of the scrollspy nav, just check out the fixed nav on the right s
 
 ### Scrollspy nav options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option     | Value   | Default                    | Description                                                                                           |
 |:-----------|:--------|:---------------------------|:------------------------------------------------------------------------------------------------------|
@@ -197,7 +197,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ### Scrollspy nav JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Scrollspy nav initialization
 

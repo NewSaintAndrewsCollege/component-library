@@ -223,7 +223,7 @@ It's often used within the [Modal component](modal.html).
 </div>
 ' %}
 
-You can change the target heights by adding the `selContainer` and `selContent` options to the attribute. [Learn more](javascript.md#component-configuration)
+You can change the target heights by adding the `selContainer` and `selContent` options to the attribute. [Learn more](javascript.html#component-configuration)
 
 | Option         | Value  | Default            | Description                                                                       |
 |:---------------|:-------|:-------------------|:----------------------------------------------------------------------------------|

@@ -640,7 +640,7 @@ To sort items alphanumerically, just add the `sort: ATTRIBUTE` option to the `uk
 
 ## Masonry Grid
 
-A filter is often applied to a [Masonry](grid.md#masonry) grid. The filter transition works perfectly with any kind of layout no matter how the items are positioned. It even works with the [Parallax](grid.md#parallax) option from the grid.
+A filter is often applied to a [Masonry](grid.html#masonry) grid. The filter transition works perfectly with any kind of layout no matter how the items are positioned. It even works with the [Parallax](grid.html#parallax) option from the grid.
 
 Here is a comprehensive example with a masonry grid:
 
@@ -764,7 +764,7 @@ Here is a comprehensive example with a masonry grid:
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option      | Value           | Default | Description                                          |
 |:------------|:----------------|:--------|:-----------------------------------------------------|
@@ -777,7 +777,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

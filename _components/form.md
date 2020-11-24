@@ -292,7 +292,7 @@ Use the `.uk-form-controls-text` class to better align checkboxes and radio butt
 
 ## Form and icons
 
-You use an icon from the [Icon component](icon.html) inside a form. Add the `.uk-form-icon` class to a `<span>` element. Group it with an `<input>` element by adding the `.uk-inline` class from the [Utility component](utility.md#inline) to a container element around both. The icon has to come first in the markup. By default, the icon will be placed on the left side of the form. To change the alignment, add the `.uk-form-icon-flip` class.
+You use an icon from the [Icon component](icon.html) inside a form. Add the `.uk-form-icon` class to a `<span>` element. Group it with an `<input>` element by adding the `.uk-inline` class from the [Utility component](utility.html#inline) to a container element around both. The icon has to come first in the markup. By default, the icon will be placed on the left side of the form. To change the alignment, add the `.uk-form-icon-flip` class.
 
 ```html
 <div class="uk-inline">
@@ -498,7 +498,7 @@ Use a button, text or a link as a select form. Just add the `target: SELECTOR` o
 
 ## Component option
 
-You can add this option to the `uk-form-custom` attribute. [Learn more](javascript.md#component-configuration)
+You can add this option to the `uk-form-custom` attribute. [Learn more](javascript.html#component-configuration)
 
 | Option   | Value                 | Default | Description           |
 |:---------|:----------------------|:--------|:----------------------|
@@ -508,7 +508,7 @@ You can add this option to the `uk-form-custom` attribute. [Learn more](javascri
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

@@ -7,7 +7,7 @@ Combine this component with the [Text component](text.html) to style your headin
 
 ## Size modifiers
 
-Add one of the following classes to modify the size and style of headings. Usually, these classes would be used on heading elements but they work also with any other element like a `div` element. Note that these classes extend the heading classes from the [Base component](base.md#headings) upward, and the smallest modifier picks up the size after `h1` element.
+Add one of the following classes to modify the size and style of headings. Usually, these classes would be used on heading elements but they work also with any other element like a `div` element. Note that these classes extend the heading classes from the [Base component](base.html#headings) upward, and the smallest modifier picks up the size after `h1` element.
 
 | Class                 | Description                                      |
 | :-------------------- | :----------------------------------------------- |

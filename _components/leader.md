@@ -64,7 +64,7 @@ It's possible to disable the leader for different device widths by applying the 
 
 ## Component options
 
-The table below lists the available settings of the `uk-leader` attribute. [Learn more](javascript.md#component-configuration)
+The table below lists the available settings of the `uk-leader` attribute. [Learn more](javascript.html#component-configuration)
 
 | Option  | Value  | Default     | Description                                                                                             |
 |:--------|:-------|:------------|:--------------------------------------------------------------------------------------------------------|
@@ -75,7 +75,7 @@ The table below lists the available settings of the `uk-leader` attribute. [Lear
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

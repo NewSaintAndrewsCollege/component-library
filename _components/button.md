@@ -170,7 +170,7 @@ A button can be used to trigger a dropdown menu from the [Dropdown component](dr
 
 ### Button group with dropdowns
 
-Use button groups to split buttons into a standard action on the left and a dropdown toggle on the right. Just wrap the toggling button and the drop or dropdown inside a `<div>` element and add the `.uk-inline` class from the [Utility component](utility.md#inline).
+Use button groups to split buttons into a standard action on the left and a dropdown toggle on the right. Just wrap the toggling button and the drop or dropdown inside a `<div>` element and add the `.uk-inline` class from the [Utility component](utility.html#inline).
 
 ```html
 <!-- A button group with a dropdown -->

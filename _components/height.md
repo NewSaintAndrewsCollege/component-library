@@ -40,7 +40,7 @@ UIkit provides a number of useful classes to alter an element's height.
 
 ## Viewport height
 
-Add the `uk-height-viewport` attribute to create a container that fills the height of the entire viewport. You can change the height behavior by adding the `offset-top`, `offset-bottom` or `expand` option to the attribute. [Learn more](javascript.md#component-configuration)
+Add the `uk-height-viewport` attribute to create a container that fills the height of the entire viewport. You can change the height behavior by adding the `offset-top`, `offset-bottom` or `expand` option to the attribute. [Learn more](javascript.html#component-configuration)
 
 | Option          | Value                  | Default | Description                                                                         |
 |:----------------|:-----------------------|:--------|:------------------------------------------------------------------------------------|
@@ -67,7 +67,7 @@ You can view examples in the tests for [Height Viewport](../assets/uikit/tests/h
 
 ## Match height
 
-To expand all children of a container to the same height regardless of their content, for example inside a grid, add the `uk-height-match` attribute. You can change the height matching behavior by setting the `target` or `row` option to the attribute. [Learn more](javascript.md#component-configuration)
+To expand all children of a container to the same height regardless of their content, for example inside a grid, add the `uk-height-match` attribute. You can change the height matching behavior by setting the `target` or `row` option to the attribute. [Learn more](javascript.html#component-configuration)
 
 | Option   | Value   | Default | Description                 |
 |:---------|:--------|:--------|:----------------------------|
@@ -145,7 +145,7 @@ If your grid wraps into multiple rows, only grid columns within the same row are
 
 ## Component options
 
-The table below lists the available settings of the `uk-height-match` attribute. [Learn more](javascript.md#component-configuration)
+The table below lists the available settings of the `uk-height-match` attribute. [Learn more](javascript.html#component-configuration)
 
 | Option   | Value        | Default | Description                                                                                 |
 |:---------|:-------------|:--------|:--------------------------------------------------------------------------------------------|
@@ -154,7 +154,7 @@ The table below lists the available settings of the `uk-height-match` attribute.
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

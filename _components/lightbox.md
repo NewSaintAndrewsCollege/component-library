@@ -191,7 +191,7 @@ You can add custom attributes to lightbox content items by using the `data-attrs
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 ### Lightbox
 
@@ -209,7 +209,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

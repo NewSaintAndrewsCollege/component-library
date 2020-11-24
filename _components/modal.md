@@ -229,7 +229,7 @@ Using the [grid](grid.html) and [width](width.html) classes, you can create a ni
 
 ## Overflow
 
-By default, the page will scroll with the modal, if its content exceeds the window height. To apply a scrollbar inside the modal, add the `uk-overflow-auto` attribute from the [Utility component](utility.md#overflow-auto) to the modal body.
+By default, the page will scroll with the modal, if its content exceeds the window height. To apply a scrollbar inside the modal, add the `uk-overflow-auto` attribute from the [Utility component](utility.html#overflow-auto) to the modal body.
 
 ```html
 <div id="my-id" uk-modal>
@@ -396,7 +396,7 @@ You can group multiple modals by linking from one to the other and back. Use thi
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option      | Value   | Default | Description                                                                                        |
 |:------------|:--------|:--------|:---------------------------------------------------------------------------------------------------|
@@ -412,7 +412,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

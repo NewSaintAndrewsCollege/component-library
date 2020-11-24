@@ -261,7 +261,7 @@ You can also match the height of the direct child of just one cell. To do so, ad
 
 ### Targets
 
-For a more specific selection of the elements whose heights should be matched, add the `target: SELECTOR` option to the `uk-height-match` attribute from the [Height component](height.md#match-height).
+For a more specific selection of the elements whose heights should be matched, add the `target: SELECTOR` option to the `uk-height-match` attribute from the [Height component](height.html#match-height).
 
 ```html
 <div uk-grid uk-height-match="target: > div > .uk-card">
@@ -509,7 +509,7 @@ The parallax effect is also applied if grid columns wrap into the next row, as s
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option         | Value   | Default         | Description                                                                                                     |
 | :------------- | :------ | :-------------- | :-------------------------------------------------------------------------------------------------------------- |
@@ -522,7 +522,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

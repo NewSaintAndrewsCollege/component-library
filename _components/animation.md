@@ -232,7 +232,7 @@ To play animations at a faster speed, add the `.uk-animation-fast` class to the 
 
 ## Origin modifiers
 
-By default, scaling animations originate from the center. To modify this behavior, add one of the `.uk-transform-origin-*` classes from the [Utility component](utility.md#transform-origin).
+By default, scaling animations originate from the center. To modify this behavior, add one of the `.uk-transform-origin-*` classes from the [Utility component](utility.html#transform-origin).
 
 ```html
 <div class="uk-animation-scale-up uk-transform-origin-bottom-right"></div>
@@ -262,7 +262,7 @@ By default, scaling animations originate from the center. To modify this behavio
 
 ## Ken Burns
 
-To add a simple Ken Burns effect, add the `.uk-animation-kenburns` class to any image. You can also apply the `.uk-animation-reverse` or one of the `.uk-transform-origin-*` classes from the [Utility component](utility.md#transform-origin) to modify the effect.
+To add a simple Ken Burns effect, add the `.uk-animation-kenburns` class to any image. You can also apply the `.uk-animation-reverse` or one of the `.uk-transform-origin-*` classes from the [Utility component](utility.html#transform-origin) to modify the effect.
 
 ```html
 <img class="uk-animation-kenburns" src="" alt="">

@@ -5,7 +5,7 @@ component: Overlay
 
 ## Usage
 
-Add the `.uk-overlay` class to an element following an image to create the overlay panel. To create a position context, add the `.uk-inline` class from the [Utility component](utility.md#inline) to a container element around both. Finally, add one of the `.uk-position-*` classes from the [Position component](position.html) to align the overlay.
+Add the `.uk-overlay` class to an element following an image to create the overlay panel. To create a position context, add the `.uk-inline` class from the [Utility component](utility.html#inline) to a container element around both. Finally, add one of the `.uk-position-*` classes from the [Position component](position.html) to align the overlay.
 
 ```html
 <div class="uk-inline">

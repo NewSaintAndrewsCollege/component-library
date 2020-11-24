@@ -40,4 +40,4 @@ Add the `.uk-light` class to improve the visibility of objects on dark backgroun
 
 ## Customize using Less
 
-The Inverse component includes additional styles to implement the flexible inverse behaviour. If your project does not make use of these styles, you can leave [disable the Inverse component](less.md#disable-inverse-component) when compiling Less.
+The Inverse component includes additional styles to implement the flexible inverse behaviour. If your project does not make use of these styles, you can leave [disable the Inverse component](less.html#disable-inverse-component) when compiling Less.

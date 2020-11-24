@@ -7,7 +7,7 @@ The Video component offers two advanced functions for videos. First, it allows y
 
 Secondly, it allows you to mute YouTube and Vimeo videos, which is often needed if they are used as the background of a section.
 
-For example, the [Slideshow](slideshow.md#videos), [Lightbox](lightbox.md#content-sources) and [Cover](cover.md#video) components inherit and make use of both functions.
+For example, the [Slideshow](slideshow.html#videos), [Lightbox](lightbox.html#content-sources) and [Cover](cover.html#video) components inherit and make use of both functions.
 
 ***
 
@@ -59,7 +59,7 @@ To mute YouTube or Vimeo videos by default, add the `uk-video="automute: true"` 
 
 ## Component options
 
-The table below lists the available settings of the `uk-video` attribute. [Learn more](javascript.md#component-configuration)
+The table below lists the available settings of the `uk-video` attribute. [Learn more](javascript.html#component-configuration)
 
 | Option     | Value           | Default | Description                      |
 |:-----------|:----------------|:--------|:---------------------------------|
@@ -72,7 +72,7 @@ The table below lists the available settings of the `uk-video` attribute. [Learn
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

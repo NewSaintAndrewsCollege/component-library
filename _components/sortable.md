@@ -192,7 +192,7 @@ You can also apply one or more custom classes to items when they are being dragg
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option            | Value  | Default                   | Description                                   |
 |:------------------|:-------|:--------------------------|:----------------------------------------------|
@@ -213,7 +213,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

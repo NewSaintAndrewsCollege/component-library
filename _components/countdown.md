@@ -123,7 +123,7 @@ To add a label to each number, use the `.uk-countdown-label` class.
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. For more information, take a look at the chapter on [component configuration](javascript.md#component-configuration).
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. For more information, take a look at the chapter on [component configuration](javascript.html#component-configuration).
 
 | Option | Value  | Default | Description |
 |:-------|:-------|:--------|:------------|
@@ -133,7 +133,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

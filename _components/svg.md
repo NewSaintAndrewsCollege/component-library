@@ -22,24 +22,24 @@ Using the `uk-svg` attribute also allows you to inject a symbol from the SVG fil
 <img src="https://raw.githubusercontent.com/uikit/uikit/develop/src/images/icons/cloud-download.svg" width="40" height="40" uk-svg>
 
 <!-- Targets a symbol inside the SVG image -->
-<img src="https://raw.githubusercontent.com/uikit/uikit/develop/src/images/icons/icons.svg#cloud-upload" width="40" height="40" uk-svg>
+<img src="https://raw.githubusercontent.com/uikit/uikit/develop/tests/images/icons.svg#cloud-upload" width="40" height="40" uk-svg>
 ' %}
 
 **Note** SVGs will adapt the current color for their stroke and fill color. To prevent this behavior, add the `.uk-preserve` class to the SVG itself or the elements inside the SVG.
 
-Inline SVG images can also be lazy loaded using the the [Image component](image.md#inline-svg).
+Inline SVG images can also be lazy loaded using the the [Image component](image.html#inline-svg).
 
 ***
 
 ## Stroke Animation
 
-There are two ways to animate SVG strokes. First by using the [Animation component](animation.md#svg-strokes) and `uk-svg="stroke-animation: true"`, and second by using the [Parallax component](parallax.md#svg-strokes).
+There are two ways to animate SVG strokes. First by using the [Animation component](animation.html#svg-strokes) and `uk-svg="stroke-animation: true"`, and second by using the [Parallax component](parallax.html#svg-strokes).
 
 ***
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option             | Value   | Default | Description                                                                                                   |
 | :----------------- | :------ | :------ | :------------------------------------------------------------------------------------------------------------ |
@@ -50,7 +50,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

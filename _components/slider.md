@@ -73,7 +73,7 @@ To define the widths of the slider items, use the [Width component](width.html).
 </div>
 ' %}
 
-**Note** To lazy load images in the slides, take a look at the [Image component](image.md#target).
+**Note** To lazy load images in the slides, take a look at the [Image component](image.html#target).
 
 ***
 
@@ -512,9 +512,9 @@ To place a navigation outside of a slider, add the `.uk-position-center-left-out
 
 ## Viewport height
 
-Adding the `uk-height-viewport` attribute from the [Height component](height.md#viewport-height) to the list of slider items will stretch the height of the `<ul>` and `<li>` elements to fill the whole viewport height. Since the width and height now aren't defined by the item's content anymore, you have to use absolute positioning for the content.
+Adding the `uk-height-viewport` attribute from the [Height component](height.html#viewport-height) to the list of slider items will stretch the height of the `<ul>` and `<li>` elements to fill the whole viewport height. Since the width and height now aren't defined by the item's content anymore, you have to use absolute positioning for the content.
 
-Use the [Cover component](cover.html) so that images cover the whole item area and are clipped. The `.uk-grid-match` class from the [Grid component](grid.md#match-height) matches the height of the direct child of each item. This is useful in this example, since the child element now applies the same width and height as the list item.
+Use the [Cover component](cover.html) so that images cover the whole item area and are clipped. The `.uk-grid-match` class from the [Grid component](grid.html#match-height) matches the height of the direct child of each item. This is useful in this example, since the child element now applies the same width and height as the list item.
 
 ```html
 <div uk-slider>
@@ -734,7 +734,7 @@ Add content overlays using the [Position component](position.html). It allows yo
 
 Add the `uk-slider-parallax` attribute to any element inside the slides to animate it together with the slider animation. Add an option with the desired animation values for each CSS property you want to animate. Define at least one start and end value. It can be done by passing two values separated by a comma.
 
-This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slider animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
+This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slider animation. Take a look at the [possible properties](parallax.html#animated-properties) that can be animated.
 
 ```html
 <div uk-slider>
@@ -989,7 +989,7 @@ To toggle transitions on hover, use the `.uk-transition-toggle` class from the [
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 ### Slider
 
@@ -1010,7 +1010,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

@@ -42,7 +42,7 @@ Add an image in the background of each slide using the `uk-cover` attribute from
 </div>
 ' %}
 
-**Note** To lazy load images in the slides, take a look at the [Image component](image.md#target).
+**Note** To lazy load images in the slides, take a look at the [Image component](image.html#target).
 
 ***
 
@@ -274,7 +274,7 @@ By default, the slideshow height adopts to the defined ratio. A minimum or maxim
 
 ## Viewport height
 
-Adding the `uk-height-viewport` attribute from the [Height component](height.md#viewport-height) to the list of slideshow items will stretch the height to fill the whole viewport. You can set the `min-height` option to define a minimum height.
+Adding the `uk-height-viewport` attribute from the [Height component](height.html#viewport-height) to the list of slideshow items will stretch the height to fill the whole viewport. You can set the `min-height` option to define a minimum height.
 
 ```html
 <div uk-slideshow="ratio: false">
@@ -415,7 +415,7 @@ The slideshow is not restricted to images. Other media, like videos, can be posi
 
 ## Ken Burns effect
 
-To add a simple Ken Burns effect, wrap the image with a `div` and add the `.uk-position-cover` and `.uk-animation-kenburns` classes. You can also apply the `.uk-animation-reverse` or one of the `.uk-transform-origin-*` classes from the [Utility component](utility.md#transform-origin) to modify the effect.
+To add a simple Ken Burns effect, wrap the image with a `div` and add the `.uk-position-cover` and `.uk-animation-kenburns` classes. You can also apply the `.uk-animation-reverse` or one of the `.uk-transform-origin-*` classes from the [Utility component](utility.html#transform-origin) to modify the effect.
 
 ```html
 <div uk-slideshow>
@@ -527,7 +527,7 @@ Add content overlays using the [Position component](position.html). It allows yo
 
 Add the `uk-slideshow-parallax` attribute to any element inside the slides to animate it together with the slideshow animation. Add an option with the desired animation values for each CSS property you want to animate. Define at least one start and end value. It can be done by passing two values separated by a comma.
 
-This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slideshow animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
+This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slideshow animation. Take a look at the [possible properties](parallax.html#animated-properties) that can be animated.
 
 ```html
 <div uk-slideshow>
@@ -722,7 +722,7 @@ Together with the [Overlay component](overlay.html), content transitions are use
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 ### Slideshow
 
@@ -745,7 +745,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 

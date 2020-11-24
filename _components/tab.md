@@ -54,7 +54,7 @@ Add the `.uk-tab-bottom` class to flip tab items to the bottom.
 
 Add the `.uk-tab-left` or `.uk-tab-right` class to align tabs vertically to the left or right side. To save space, the alignment automatically switches back to horizontal when the viewport width goes below 960px.
 
-When using the vertical alignment, you will usually create a grid to apply the layout as seen in the [Switcher example](switcher.md#vertical-tabs).
+When using the vertical alignment, you will usually create a grid to apply the layout as seen in the [Switcher example](switcher.html#vertical-tabs).
 
 ```html
 <ul class="uk-tab-left" uk-tab>...</ul>
@@ -176,7 +176,7 @@ Tabs can be used to trigger a dropdown menu from the [Dropdown component](dropdo
 
 ## Component options
 
-Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.md#component-configuration)
+Any of these options can be applied to the component attribute. Separate multiple options with a semicolon. [Learn more](javascript.html#component-configuration)
 
 | Option      | Value           | Default | Description                                                                                               |
 |:------------|:----------------|:--------|:----------------------------------------------------------------------------------------------------------|
@@ -192,7 +192,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 ## JavaScript
 
-Learn more about [JavaScript components](javascript.md#programmatic-use).
+Learn more about [JavaScript components](javascript.html#programmatic-use).
 
 ### Initialization
 
