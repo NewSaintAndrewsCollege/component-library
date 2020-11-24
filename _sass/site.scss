@@ -1,137 +1,206 @@
+@import url("https://use.typekit.net/qia3owx.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,800;1,300;1,400&display=swap');
 // 1. Your custom variables and variable overwrites.
-$global-font-family: 'Open Sans', sans-serif;
-$base-heading-font-family: 'EB Garamond', serif;
+$global-primary-background: #CF8A39;
+$global-secondary-background: #1C2236;
+$global-muted-background: #F3F3F3;
+$global-font-family: 'Montserrat', sans-serif;
+$base-heading-font-family: 'freight-display-pro', serif;
+$base-heading-font-weight: 300;
+$global-color: #000000;
+$inverse-global-color: #ffffff;
+$base-heading-color: #000000;
+$base-h1-font-size-m: 64px;
+$base-h1-font-size: 48px;
+$base-h1-line-height: 1;
+$base-h2-font-size-m: 48px;
+$base-h2-font-size: 36px;
+$base-h2-line-height: 1.3;
+$base-h3-font-size-m: 24px;
+$base-h3-font-size: 18px;
+$base-h3-line-height: 1.375;
 $global-font-size: 18px;
-$global-color: #303030;
-$base-em-color: $global-color;
-$base-body-font-weight: 400;
-$global-primary-background: #0d3666;
-$base-heading-color: $global-primary-background;
-$global-secondary-background: #eeeeee;
-$nav-header-text-transform: none !important;
-$inverse-global-color: #fff;
-$inverse-global-muted-color: #fff;
-$global-xxlarge-font-size: 34px;
-$navbar-background: $global-primary-background;
-$button-large-padding-horizontal: 20px;
-$navbar-dropdown-background: $global-primary-background;
-$navbar-dropdown-nav-item-color: rgb(181, 181, 181);
-$navbar-dropdown-nav-item-hover-color: #ffffff;
-$overlay-primary-background: rgba(#1e1e1e, 0.6);
-$text-primary-color: #c55f0d;
-$global-line-height: 1.5;
-$button-large-line-height: $global-font-size * $global-line-height;
+$inverse-form-background: #c4c4c4;
+$inverse-form-placeholder-color: #838383;
+$inverse-button-default-background: $inverse-global-color;
+$inverse-button-default-color: $global-color;
+
+$button-line-height: 47px;
+$button-large-line-height: 74px;
+$button-font-size: 14px;
+$inverse-button-primary-background: $global-primary-background;
+$inverse-button-primary-color: $inverse-global-color;
+$inverse-button-primary-hover-color: $inverse-global-color;
+
+// h2 { letter-spacing: .3em; }
+
+h3, a.uk-button, button {
+    letter-spacing: .2em;
+    text-transform: uppercase !important;
+}
+
+h1, p { letter-spacing: .05em; }
+
+.primary-underline {
+    text-decoration: underline solid $global-primary-background;
+}
+
+.call-out {
+    font-style: italic !important;
+    font-weight: 300 !important;
+    font-size: 72px !important;
+    line-height: 80px !important;
+}
+
+.circle {
+    width: 128px;
+    height: 128px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+
+.circle-small {
+    width: 100px;
+    height: 100px;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+}
+
+.xl-header {
+    font-size: 48px;
+}
+
+.title-font {
+    font-family: $base-heading-font-family;
+    font-weight: $base-heading-font-weight;
+}
+
+.header-logo {
+    position: absolute;
+    top: 28px;
+    left: 26px;
+    max-width: 64px
+}
+
+.book-title {
+    font-weight: 500;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.smaller-header {
+    font-size: 48px;
+}
+
+.three-card-title {
+    margin-bottom: 68px !important;
+    font-size: 24px;
+}
+
+.three-icons {
+    width: 180px;
+    height: 180px;
+}
+
+// small
+@media screen and (min-width: 640px) {
+    .book-title {
+        font-weight: 500;
+        font-size: 64px;
+    }
+
+    .book-subtitle {
+        max-width: 50%;
+    }
+
+    .xl-header {
+        font-size: 64px;
+    }
+}
+
+
+// medium
+@media screen and (min-width: 960px) {
+    .header-logo {
+        top: 56px;
+        left: 53px;
+        max-width: 79px
+    }
+
+    .smaller-header {
+        font-size: 80px;
+    }
+
+    .xl-header {
+        font-size-adjust: 72px;
+    }
+}
+
+// large
+@media screen and (min-width: 1200px) {
+    .mr-128-l {
+        margin-right: 128px;
+    }
+
+    .ml-128-l {
+        margin-left: 128px;
+    }
+
+    .three-card-title {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .ml-128-l .three-card-title {
+        left: 108px;
+    }
+
+    .mr-128-l .three-card-title {
+        right: 108px;
+    }
+}
+
+// xlarge (different than uikit breakpoint)
+@media screen and (min-width: 1400px) {
+    .three-icons {
+        width: 270px;
+        height: 270px;
+    }
+}
 
 // 2. Import default variables and available mixins.
 @import "uikit/variables-theme.scss";
 @import "uikit/mixins-theme.scss";
 
-$navbar-nav-item-color: $global-inverse-color;
-
 // 3. Your custom mixin overwrites.
-// @mixin hook-card() { color: #000; }
-@mixin hook-navbar(){
-    .uk-navbar-nav > li > a {
-        text-transform: none;
+
+@mixin hook-form(){
+    border: $form-border-width solid $form-border;
+    transition: 0.2s ease-in-out;
+    transition-property: color, background-color, border;
+    font-family: GothamHTF, sans-serif;
+    text-align: center;
+    border-radius: 0;
+}
+
+@mixin hook-button() {
+    min-width: 200px;
+    border-radius: 4px;
+    transition: background-color 500ms, color 500ms; 
+}
+
+@mixin hook-container-misc(){
+    @media screen and (max-width:959px) {  
+        .uk-container {
+            margin-left: 45px;
+            margin-right: 45px;
+        }
     }
 }
 
-@mixin hook-button-large(){
-    font-size: $global-font-size;
-    font-weight: 400;
-    padding-top: (53px - $global-font-size * $global-line-height) / 2;
-    padding-bottom: (53px - $global-font-size * $global-line-height) / 2;
+@mixin hook-base-h3() {
+    font-family: $global-font-family;
 }
-
-@mixin hook-button(){
-    border-radius: 3px;
-}
-
-@mixin hook-inverse-button-primary(){
-    background-color: white;
-    transition: .2s;
-    color: #02264d;
-}
-
-@mixin hook-inverse-button-primary-hover(){
-    background-color: #02264d;
-    color: white;
-    transition: .2s;
-}
-
-@mixin hook-button-primary(){
-    background-color: #02264d;
-    transition: .2s;
-}
-
-@mixin hook-button-primary-hover(){
-    background-color: white;
-    color: #02264d;
-    transition: .2s;
-}
-
-@mixin hook-inverse-component-text() {
-    .uk-text-primary {
-        color: #c55f0d;
-    }
-}
-.uk-modal-page { overflow: visible !important; }
-.uk-modal-page > body { overflow-y: visible !important;overflow-x: hidden !important; }
 
 // 4. Import UIkit.
 @import "uikit/uikit-theme.scss";
-
-.orange-underline {
-    text-decoration: underline rgba(240,84,35,0.75);
-    // safari
-    -webkit-text-decoration: underline rgba(240,84,35,0.75);
-}
-
-.srt-block-quote {
-    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
-    font-size: 44px !important;
-}
-
-.srt-block-quote {
-    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
-    font-size: 44px !important;
-}
-
-.srt-block-quote-small {
-    border-bottom: 5px solid rgba(240,84,35,0.75)!important;
-    font-size: 31px !important;
-}
-
-.srt-divider-top {
-    border-top: 5px solid #828282 !important;
-}
-
-.uk-navbar-dropdown {
-    border: 1px solid #ffffff !important;
-}
-
-@media only screen and (max-width: 959px) {
-    #header-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
-        z-index: -1;
-    }
-
-    #header-content {
-        position: static !important;
-    }
-
-    #header-content h1 {
-        font-size: 2rem;
-    }
-}
-
-.hover-tile:hover {
-    background-color: #838383 !important;
-    -webkit-transition: background-color 500ms ease;
-    -ms-transition: background-color 500ms ease;
-    transition: background-color 500ms ease;
-}

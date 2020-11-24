@@ -41,3 +41,14 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+collections:
+  components: 
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "components"
+    values:
+      layout: "component"

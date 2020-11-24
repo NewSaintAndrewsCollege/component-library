@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>NSA Component Library | {{ page.title }}</title>
+  <meta name="description" content="NSA Component Library">
+
+  <!-- UIKit CSS -->
+  <link rel="stylesheet" href="{{ 'css/site.css' | relative_url }}">
+  <!-- UIKit JS -->
+  <script src="{{ 'js/uikit.min.js' | relative_url }}"></script>
+  <script src="{{ 'js/uikit-icons.min.js' | relative_url }}"></script>
+
+</head>
+
+<body>
+  <nav style="z-index: 1;" class="uk-width-1-1 uk-position-fixed uk-navbar-container uk-margin uk-navbar" uk-navbar="">
+    <div class="uk-navbar-center">
+      <a class="uk-navbar-item uk-logo" href="#">NSA Website Component Library</a>
+    </div>
+  </nav>
+  {{ content }}
+</body>
+
+</html>

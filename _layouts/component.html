@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div uk-grid>
+  <div class="uk-width-1-5@m">
+    <div uk-sticky="offset: 160" class="uk-sticky uk-active uk-sticky-fixed"
+      style="position: fixed; top: 160px; width: 200px;">
+      <ul class="uk-position-fixed uk-height-1-1 uk-padding uk-padding-remove-top uk-nav uk-nav-default uk-nav-parent-icon" style="overflow-y:scroll">
+        {% for component in site.components %}
+        <li{% if component.component == page.component %} class="uk-active"{% endif %}><a href="{{ component.url }}">{{ component.component }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="uk-width-expand">
+    <div class="uk-section">
+      <div class="uk-container">
+        <a class="uk-text-link" href="#{{ page.component | slugify }}" id="{{ page.component | slugify }}">
+          <h1 style="margin-top:80px">{{ page.component }}</h1>
+        </a>
+        {{ content | markdownify }}
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="uk-width-1-5@m uk-visible@l">
+    <div uk-sticky="offset: 160" class="uk-sticky uk-active uk-sticky-fixed"
+      style="position: fixed; top: 160px; width: 200px;">
+      <ul uk-scrollspy-nav="closest: li; scroll: true; offset: 100"
+        class="uk-nav uk-nav-default tm-nav uk-nav-parent-icon">
+        {% include toc.html class='uk-nav.uk-nav-default' html=content h_min=2 h_max=2 %}
+        <li><a href="https://github.com/NewSaintAndrewsCollege/component-library/_components/tree/main/{{ page.component | downcase }}.md" target="_blank"><span
+              uk-icon="pencil" class="uk-margin-small-right uk-icon"><svg width="20" height="20" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg" data-svg="pencil">
+                <path fill="none" stroke="#000"
+                  d="M17.25,6.01 L7.12,16.1 L3.82,17.2 L5.02,13.9 L15.12,3.88 C15.71,3.29 16.66,3.29 17.25,3.88 C17.83,4.47 17.83,5.42 17.25,6.01 L17.25,6.01 Z">
+                </path>
+                <path fill="none" stroke="#000" d="M15.98,7.268 L13.851,5.148"></path>
+              </svg></span> <span class="uk-text-middle">Edit this page</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
