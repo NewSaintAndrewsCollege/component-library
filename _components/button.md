@@ -24,7 +24,7 @@ To apply this component, add the `.uk-button` class and a modifier such as `.uk-
 </p>
 ' %}
 
-**Note** If you are displaying a number of buttons in a row, you can add a top margin to them, when they stack on smaller viewports. Just add the `uk-margin` attribute from the [Margin component](margin.md) to their parent element.
+**Note** If you are displaying a number of buttons in a row, you can add a top margin to them, when they stack on smaller viewports. Just add the `uk-margin` attribute from the [Margin component](margin.html) to their parent element.
 
 ***
 
@@ -87,7 +87,7 @@ Add the `.uk-button-small` or `.uk-button-large` class to a button to make it sm
 
 ## Width modifiers
 
-Add the `.uk-width-1-1` class from the [Width component](width.md) and the button will take up full width.
+Add the `.uk-width-1-1` class from the [Width component](width.html) and the button will take up full width.
 
 ### Example
 
@@ -141,7 +141,7 @@ To create a button group, add the `.uk-button-group` class to a `<div>` element 
 
 ## Button with dropdowns
 
-A button can be used to trigger a dropdown menu from the [Dropdown component](dropdown.md).
+A button can be used to trigger a dropdown menu from the [Dropdown component](dropdown.html).
 
 ```html
 <!-- A button toggling a dropdown -->

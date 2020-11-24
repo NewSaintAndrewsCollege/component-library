@@ -122,7 +122,7 @@ To increase the size of the search, for example when creating an overlay search,
 
 ## Navbar modifier
 
-A search can be used inside a navbar from the [Navbar component](navbar.md). Just add the `.uk-search-navbar` class.
+A search can be used inside a navbar from the [Navbar component](navbar.html). Just add the `.uk-search-navbar` class.
 
 ```html
 <form class="uk-search uk-search-navbar">...</form>

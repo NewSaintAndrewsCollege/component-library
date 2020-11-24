@@ -146,7 +146,7 @@ A parent item inside the navbar can be enabled by either hovering or clicking th
 
 ## Transparent modifier
 
-When using an image or colored background for the hero section of your website, you might want to turn the navbar transparent. Just add the `.uk-navbar-transparent` class to the `<nav>` element. If necessary, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) to adjust the navbar's color.
+When using an image or colored background for the hero section of your website, you might want to turn the navbar transparent. Just add the `.uk-navbar-transparent` class to the `<nav>` element. If necessary, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) to adjust the navbar's color.
 
 ```html
 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>...</nav>
@@ -257,7 +257,7 @@ You can also add custom content to the navbar, like text, icons, buttons or form
 </div>
 ```
 
-Add the `.uk-logo` class from the [Utility component](utility.md) to an `<a>` or `<div>` element to indicate your brand.
+Add the `.uk-logo` class from the [Utility component](utility.html) to an `<a>` or `<div>` element to indicate your brand.
 
 {% include example.html content='
 <nav class="uk-navbar-container uk-margin" uk-navbar>
@@ -342,7 +342,7 @@ You can create a split menu with a centered logo. Just add the `uk-navbar-center
 
 ## Toggle item
 
-Add the `.uk-navbar-toggle` class and the `uk-navbar-toggle-icon` attribute to an `<a>` or `<div>` element to create an icon as a toggle. By default, there is no JavaScript attached to the toggle. As an example, you can add an off-canvas navigation from the [Off-canvas component](offcanvas.md) or a modal from the [Modal component](modal.md).
+Add the `.uk-navbar-toggle` class and the `uk-navbar-toggle-icon` attribute to an `<a>` or `<div>` element to create an icon as a toggle. By default, there is no JavaScript attached to the toggle. As an example, you can add an off-canvas navigation from the [Off-canvas component](offcanvas.html) or a modal from the [Modal component](modal.html).
 
 ```html
 <div class="uk-navbar-container" uk-navbar>
@@ -372,7 +372,7 @@ Add the `.uk-navbar-toggle` class and the `uk-navbar-toggle-icon` attribute to a
 
 ## Dropdowns
 
-A navbar can contain a dropdown from the [Dropdown component](dropdown.md). Just add the `.uk-navbar-dropdown` modifier to the dropdown, so it fits perfectly into the navbar's styling. Add the `.uk-navbar-dropdown-nav` class to navs inside the dropdown.
+A navbar can contain a dropdown from the [Dropdown component](dropdown.html). Just add the `.uk-navbar-dropdown` modifier to the dropdown, so it fits perfectly into the navbar's styling. Add the `.uk-navbar-dropdown-nav` class to navs inside the dropdown.
 
 ```html
 <ul class="uk-navbar-nav">
@@ -435,7 +435,7 @@ A navbar can contain a dropdown from the [Dropdown component](dropdown.md). Just
 
 ### Multiple columns
 
-The [Dropdown component](dropdown.md) allows you arrange the dropdown content in columns. To accommodate up to five columns, you also need to add one of the following classes. Columns will stack, if they no longer fit into the container.
+The [Dropdown component](dropdown.html) allows you arrange the dropdown content in columns. To accommodate up to five columns, you also need to add one of the following classes. Columns will stack, if they no longer fit into the container.
 
 | Class                         | Description                                              |
 |:------------------------------|:---------------------------------------------------------|
@@ -624,7 +624,7 @@ Dropdowns can be aligned to the navbar's boundary. Just append the `boundary-ali
 
 ### Justify
 
-To justify a dropdown, use the [Drop component](drop.md) and its position feature. In the following example it is aligned to the boundary of the parent navbar.
+To justify a dropdown, use the [Drop component](drop.html) and its position feature. In the following example it is aligned to the boundary of the parent navbar.
 
 ```html
 <div class="uk-navbar-dropdown" uk-drop="boundary: .parent; boundary-align: true; pos: bottom-justify;">...</div>
@@ -878,7 +878,7 @@ By default, the dropbar overlays the site content. Add the `dropbar-mode: push;`
 ## Sticky Navbar
 
 
-For a basic sticky navbar, wrap the navbar inside a container with the `uk-sticky` attribute from the [Sticky component](sticky.md).
+For a basic sticky navbar, wrap the navbar inside a container with the `uk-sticky` attribute from the [Sticky component](sticky.html).
 
 The navbar itself has a modifier class `uk-navbar-sticky` that ensures an optimized styling for the sticky state (for example an additional box shadow). To let the sticky component dynamically add and remove that class, set `cls-active: uk-navbar-sticky`. To ensure that the class is added to the navbar container, set `sel-target: .uk-navbar-container`.
 

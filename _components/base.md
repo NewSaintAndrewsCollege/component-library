@@ -8,13 +8,13 @@ component: Base
 
 The Base component utilizes styling of the famous [Normalize.css](http://necolas.github.io/normalize.css/) to render elements consistently across all browsers and applies its default styling like colors, margins, font-sizes and more.
 
-**Note** [Form](form.md), [Button](button.md) and [Table](table.md) elements are not normalized or styled by default. This happens in their specific component class. UIkit tries to apply as little styling as possible to plain HTML elements in order to remain robust and conflict free with 3rd party CSS.
+**Note** [Form](form.html), [Button](button.html) and [Table](table.html) elements are not normalized or styled by default. This happens in their specific component class. UIkit tries to apply as little styling as possible to plain HTML elements in order to remain robust and conflict free with 3rd party CSS.
 
 ***
 
 ## Links
 
-Turn text into hypertext using the `<a>` element. You can also add the `.uk-link` class to a `<span>` or similar element to apply the default link styling. For additional styling options, take a look at the [Link component](link.md).
+Turn text into hypertext using the `<a>` element. You can also add the `.uk-link` class to a `<span>` or similar element to apply the default link styling. For additional styling options, take a look at the [Link component](link.html).
 
 ***
 
@@ -50,7 +50,7 @@ The following list gives you a short overview of the most commonly used text-lev
 
 ## Embedded content
 
-Images and other elements like `<audio>`, `<canvas>`, `<img>`, `<svg>` and `<video>` are responsive by default in UIkit. If the layout is narrowed, they adjust their size and keep their proportions. To prevent this behavior, add the `.uk-preserve-width` class from the [Utility component](utility.md) to the element or any container.
+Images and other elements like `<audio>`, `<canvas>`, `<img>`, `<svg>` and `<video>` are responsive by default in UIkit. If the layout is narrowed, they adjust their size and keep their proportions. To prevent this behavior, add the `.uk-preserve-width` class from the [Utility component](utility.html) to the element or any container.
 
 Resize the browser window to see the responsive behavior of the image.
 
@@ -76,7 +76,7 @@ Create a paragraph by using the `<p>` element.
 
 Use the `<h1>` to `<h6>` elements to define your headings.
 
-Add the `.uk-h1`, `.uk-h2`, `.uk-h3`, `.uk-h4`, `.uk-h5` or `.uk-h6` class to alter the size of your headings, for example have a h1 look like a h3. For additional styling options, take a look at the [Heading component](heading.md).
+Add the `.uk-h1`, `.uk-h2`, `.uk-h3`, `.uk-h4`, `.uk-h5` or `.uk-h6` class to alter the size of your headings, for example have a h1 look like a h3. For additional styling options, take a look at the [Heading component](heading.html).
 
 {% include example.html content='
 <h1>h1 Heading 1</h1>
@@ -91,7 +91,7 @@ Add the `.uk-h1`, `.uk-h2`, `.uk-h3`, `.uk-h4`, `.uk-h5` or `.uk-h6` class to al
 
 ## Lists
 
-Create an unordered list using the `<ul>` element and the `<ol>` element for ordered lists. The `<li>` element defines the list item. For additional styling options, take a look at the [List component](list.md).
+Create an unordered list using the `<ul>` element and the `<ol>` element for ordered lists. The `<li>` element defines the list item. For additional styling options, take a look at the [List component](list.html).
 
 {% include example.html content='
 <ul>
@@ -116,7 +116,7 @@ Create an unordered list using the `<ul>` element and the `<ol>` element for ord
 
 ## Description list
 
-Create a description list using the `<dl>` element. Use `<dt>` to define the term and `<dd>` for the description. For additional styling options, take a look at the [Description List component](description-list.md).
+Create a description list using the `<dl>` element. Use `<dt>` to define the term and `<dd>` for the description. For additional styling options, take a look at the [Description List component](description-list.html).
 
 {% include example.html content='
 <dl>
@@ -133,7 +133,7 @@ Create a description list using the `<dl>` element. Use `<dt>` to define the ter
 
 ## Horizontal rule
 
-Create a horizontal rule by using the `<hr>` element. For additional styling options, take a look at the [Divider component](divider.md).
+Create a horizontal rule by using the `<hr>` element. For additional styling options, take a look at the [Divider component](divider.html).
 
 {% include example.html content='
 

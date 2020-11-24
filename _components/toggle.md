@@ -61,7 +61,7 @@ If you don't want to toggle the `hidden` attribute, you can also toggle a custom
 
 ## Animations
 
-The Toggle component allows you to add animations to items when toggling between them. Just add one of the `.uk-animation-*` classes from the [Animation component](animation.md) to the animation parameter. The class will be applied to the in as well as the out animation. If you prefer a different out animation, just add another class.
+The Toggle component allows you to add animations to items when toggling between them. Just add one of the `.uk-animation-*` classes from the [Animation component](animation.html) to the animation parameter. The class will be applied to the in as well as the out animation. If you prefer a different out animation, just add another class.
 
 ```html
 <button type="button" uk-toggle="target: #my-id; animation: uk-animation-fade"></button>
@@ -157,7 +157,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 | `mode`      | String          | `click` | Comma separated list of trigger behaviour modes. (`hover`, `click`, `media`)                                                                                                      |
 | `cls`       | String          | `false` | The class that is being toggled. Defaults to the `hidden` attribute.                                                                                                              |
 | `media`     | Integer, String | `false` | In media mode, the breakpoint that triggers the toggle - a width as integer (e.g. 640) or a breakpoint (e.g. @s, @m, @l, @xl) or any valid media query (e.g. (min-width: 900px)). |
-| `animation` | String          | `false` | Space separated names of [animations](animation.md) to use, comma separated for out animation.                                                                                    |
+| `animation` | String          | `false` | Space separated names of [animations](animation.html) to use, comma separated for out animation.                                                                                    |
 | `duration`  | Number          | `200`   | Animation duration in milliseconds.                                                                                                                                               |
 | `queued`    | Boolean         | `true`  | Toggle the targets successively.                                                                                                                                                  |
 

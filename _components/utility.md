@@ -5,7 +5,7 @@ component: Utility
 
 ## Panel
 
-UIkit uses panels to outline certain sections of your content. These can be arranged in grid columns from the [Grid component](grid.md) component, for example.
+UIkit uses panels to outline certain sections of your content. These can be arranged in grid columns from the [Grid component](grid.html) component, for example.
 
 Add the `.uk-panel` class to a `<div>` element to create a position context, set box-sizing to border-box, apply a clearfix and to remove the bottom margin of its last child element.
 
@@ -27,7 +27,7 @@ Add the `.uk-panel` class to a `<div>` element to create a position context, set
 
 ### Scrollable panel
 
-Add the `.uk-panel-scrollable` class to give the panel a fixed height and make it scrollable, if its content exceeds the height. You can also add one of the `.uk-height-*` [classes](height.md) to apply a different height.
+Add the `.uk-panel-scrollable` class to give the panel a fixed height and make it scrollable, if its content exceeds the height. You can also add one of the `.uk-height-*` [classes](height.html) to apply a different height.
 
 {% include example.html content='
 <div class="uk-panel uk-panel-scrollable">
@@ -172,7 +172,7 @@ Add the `uk-overflow-auto` attribute to expand an element's height to make it fi
 </div>
 ' %}
 
-It's often used within the [Modal component](modal.md).
+It's often used within the [Modal component](modal.html).
 
 ```html
 <div id="my-id" uk-modal>
@@ -296,7 +296,7 @@ Add one of these classes to change the display properties of an element.
 
 ## Inline
 
-These classes are often used to create a position context on containers with an image as a child. The container keeps the same size as the image as well as the responsive behavior. That way content that is placed on top of the image with the [Position component](position.md) will not flow out of the image dimensions.
+These classes are often used to create a position context on containers with an image as a child. The container keeps the same size as the image as well as the responsive behavior. That way content that is placed on top of the image with the [Position component](position.html) will not flow out of the image dimensions.
 
 | Class             | Description                                                                                                            |
 |:------------------|:-----------------------------------------------------------------------------------------------------------------------|
@@ -469,7 +469,7 @@ With the new `.uk-logo` class you can easily define your logo, for example withi
 <a class="uk-logo" href="#">Logo</a>
 ' %}
 
-Add the `.uk-light` class from the [Inverse component](inverse.md) when displaying the image on dark backgrounds, so that its color will automatically be inverted for better visibility.
+Add the `.uk-light` class from the [Inverse component](inverse.html) when displaying the image on dark backgrounds, so that its color will automatically be inverted for better visibility.
 
 {% include example.html content='
 <div class="uk-panel uk-padding uk-background-secondary uk-light">
@@ -489,7 +489,7 @@ You can also use an `<img>` element, for example an SVG, as a logo.
 </a>
 ```
 
-You can even automatically display alternative logos for light and dark backgrounds by using the [Inverse component](inverse.md). Just add the `.uk-logo-inverse` class to a second logo image. Depending on the color mode, the inverted logo will be displayed when the `.uk-light` or `.uk-dark` class is applied to the parent element.
+You can even automatically display alternative logos for light and dark backgrounds by using the [Inverse component](inverse.html). Just add the `.uk-logo-inverse` class to a second logo image. Depending on the color mode, the inverted logo will be displayed when the `.uk-light` or `.uk-dark` class is applied to the parent element.
 
 ```html
 <div class="uk-light">
@@ -521,13 +521,13 @@ You can even automatically display alternative logos for light and dark backgrou
 </div>
 ' %}
 
-**Note** To inject a SVG logo as inline SVG, use the [SVG component](svg.md).
+**Note** To inject a SVG logo as inline SVG, use the [SVG component](svg.html).
 
 ***
 
 ## Blend modes
 
-Add one of the following classes to apply different blend modes to your backgrounds, for example when placing them on images. You can combine these with the [Overlay component](overlay.md). For a better understanding of how background blend modes work, take a look at this [CSS Tricks article](https://css-tricks.com/almanac/properties/b/background-blend-mode/).
+Add one of the following classes to apply different blend modes to your backgrounds, for example when placing them on images. You can combine these with the [Overlay component](overlay.html). For a better understanding of how background blend modes work, take a look at this [CSS Tricks article](https://css-tricks.com/almanac/properties/b/background-blend-mode/).
 
 
 | Class                   | Description                                    |
@@ -697,7 +697,7 @@ To center an element to itself, add the `uk-transform-center` class. This is par
 
 ## Transform origin
 
-To modify the origin of an animation, like scaling, add one of the `uk-transform-origin-*` classes. This can be combined with the [Animation component](animation.md).
+To modify the origin of an animation, like scaling, add one of the `uk-transform-origin-*` classes. This can be combined with the [Animation component](animation.html).
 
 | Class                                | Description                                      |
 |:-------------------------------------|:-------------------------------------------------|
@@ -760,4 +760,4 @@ To apply a move cursor to elements that are being dragged, add the `.uk-drag` cl
 </div>
 ' %}
 
-To create a box shadow on an [upload area](upload.md) when dragging a file over it, add the `.uk-dragover` class.
+To create a box shadow on an [upload area](upload.html) when dragging a file over it, add the `.uk-dragover` class.

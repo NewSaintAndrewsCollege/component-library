@@ -9,7 +9,7 @@ UIkit comes with its own SVG icon system and a comprehensive library, which comp
 
 ## Usage
 
-Make sure to include the icon library script, for more details see the [installation instructions](installation.md).
+Make sure to include the icon library script, for more details see the [installation instructions](installation.html).
 
 ```html
 <script src="uikit/dist/js/uikit-icons.min.js"></script>

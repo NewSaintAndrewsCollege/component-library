@@ -34,7 +34,7 @@ Add the `.uk-light` class to improve the visibility of objects on dark backgroun
 </div>
 ' %}
 
-**Note** Some modifiers from the [Section](section.md), [Card](card.md), [Tile](tile.md), [Overlay](overlay.md) and [Off-canvas](offcanvas.md) component are extending the inverse style automatically, so you don't have to add any class.
+**Note** Some modifiers from the [Section](section.html), [Card](card.html), [Tile](tile.html), [Overlay](overlay.html) and [Off-canvas](offcanvas.html) component are extending the inverse style automatically, so you don't have to add any class.
 
 ***
 

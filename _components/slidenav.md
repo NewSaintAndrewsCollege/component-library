@@ -57,9 +57,9 @@ To display a conjoint slidenav, wrap the slidenav items inside a `<div>` element
 
 ## Position as overlay
 
-To position the slidenav on top of an element or the [Slideshow component](slideshow.md) for example, just add one of the `.uk-position-*` classes from the [Position component](position.md). To create a position context on the container, add the `.uk-position-relative` class.
+To position the slidenav on top of an element or the [Slideshow component](slideshow.html) for example, just add one of the `.uk-position-*` classes from the [Position component](position.html). To create a position context on the container, add the `.uk-position-relative` class.
 
-Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) to apply a light or dark color for better visibility.
+Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) to apply a light or dark color for better visibility.
 
 ```html
 <div class="uk-position-relative uk-light">

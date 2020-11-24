@@ -5,7 +5,7 @@ component: Thumbnav
 
 ## Usage
 
-To create a navigation with thumbnails, use the following classes. This component is built with Flexbox. So to align a thumbnav, you can use [Flex component](flex.md).
+To create a navigation with thumbnails, use the following classes. This component is built with Flexbox. So to align a thumbnav, you can use [Flex component](flex.html).
 
 | Class          | Description                                                                                                                            |
 |:---------------|:---------------------------------------------------------------------------------------------------------------------------------------|
@@ -19,7 +19,7 @@ To create a navigation with thumbnails, use the following classes. This componen
 </ul>
 ```
 
-**Note** For a better layout, if items should wrap into the next row, add the `uk-margin` attribute from the [Margin component](margin.md).
+**Note** For a better layout, if items should wrap into the next row, add the `uk-margin` attribute from the [Margin component](margin.html).
 
 {% include example.html content='
 <ul class="uk-thumbnav" uk-margin>
@@ -52,7 +52,7 @@ The thumbnav can also be displayed vertically. Just add the `.uk-thumbnav-vertic
 
 ## Position as overlay
 
-To position the thumbnav on top of an element or the [Slideshow component](slideshow.md) for example, add one of the `.uk-position-*` classes from the [Position component](position.md) to a `div` element wrapping the thumbnav. To create a position context on the container, add the `.uk-position-relative` class.
+To position the thumbnav on top of an element or the [Slideshow component](slideshow.html) for example, add one of the `.uk-position-*` classes from the [Position component](position.html) to a `div` element wrapping the thumbnav. To create a position context on the container, add the `.uk-position-relative` class.
 
 ```html
 <div class="uk-position-relative">

@@ -3,7 +3,7 @@ component: Filter
 ---
 <p class="uk-text-lead">Filter or sort items in any given layout by meta data.</p>
 
-The Filter component is often used together with the [Grid component](grid.md), especially the masonry grid, but it's not bound to it. Any layout can be filtered or sorted no matter how the items are positioned. Items fade and move with smooth transitions between the different filtering and sorting states.
+The Filter component is often used together with the [Grid component](grid.html), especially the masonry grid, but it's not bound to it. Any layout can be filtered or sorted no matter how the items are positioned. Items fade and move with smooth transitions between the different filtering and sorting states.
 
 ***
 
@@ -112,7 +112,7 @@ If `target` is the only option in the `uk-filter` attribute value, you can also 
 </div>
 ' %}
 
-The Filter component comes unstyled, which allows you to use any of the other UIkit components to create the filter controls and layout items. For example, the [Nav](nav.md), [Subnav](subnav.md) and [Tab](tab.md) components can be used to style the filter controls. Usually, the [Grid component](grid.md) is used to create the item layout.
+The Filter component comes unstyled, which allows you to use any of the other UIkit components to create the filter controls and layout items. For example, the [Nav](nav.html), [Subnav](subnav.html) and [Tab](tab.html) components can be used to style the filter controls. Usually, the [Grid component](grid.html) is used to create the item layout.
 
 ***
 

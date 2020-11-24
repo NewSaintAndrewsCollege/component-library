@@ -63,7 +63,7 @@ This way you have the reference to UIkit available without having to include its
 </html>
 ```
 
-**Note** For simplicity reasons, we have included the pre-built CSS. In a real project, you probably want to build the [Less](less.md) files and included the compiled CSS instead.
+**Note** For simplicity reasons, we have included the pre-built CSS. In a real project, you probably want to build the [Less](less.html) files and included the compiled CSS instead.
 
 ## Webpack config
 

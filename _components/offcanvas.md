@@ -186,7 +186,7 @@ By default, the off-canvas slides in. But you can actually choose between differ
 
 ## Nav in Off-canvas
 
-You can use the [Nav component](nav.md) inside an off-canvas to create a mobile navigation.
+You can use the [Nav component](nav.html) inside an off-canvas to create a mobile navigation.
 
 ```html
 <div id="my-id" uk-offcanvas>

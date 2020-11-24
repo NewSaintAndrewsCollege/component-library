@@ -14,7 +14,7 @@ To have an image cover its parent element, add the `.uk-cover-container` class t
 </div>
 ```
 
-**Note** To position content on top of the covering element, use the [Position component](position.md). To adapt your content for better visibility, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md).
+**Note** To position content on top of the covering element, use the [Position component](position.html). To adapt your content for better visibility, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html).
 
 {% include example.html content='
 <div class="uk-cover-container uk-height-medium">
@@ -28,7 +28,7 @@ To have an image cover its parent element, add the `.uk-cover-container` class t
 
 To create a video that covers its parent container, add the `uk-cover` attribute to a video. Wrap a container element around the video and add the `.uk-cover-container` class to clip the content.
 
-The Cover component inherits all properties from the [Video component](video.md) which means videos are muted and play automatically. The video will pause whenever it's not visible and resume once it becomes visible again.
+The Cover component inherits all properties from the [Video component](video.html) which means videos are muted and play automatically. The video will pause whenever it's not visible and resume once it becomes visible again.
 
 ```html
 <div class="uk-cover-container">

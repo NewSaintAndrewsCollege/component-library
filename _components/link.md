@@ -5,7 +5,7 @@ component: Link
 
 ## Muted modifier
 
-The [Base component](base.md) determines the default link color. If you want the link to a apply a muted style instead, just add the `.uk-link-muted` class to the anchor element. You can also add the class to a parent element and it will be applied to all `<a>` elements inside it.
+The [Base component](base.html) determines the default link color. If you want the link to a apply a muted style instead, just add the `.uk-link-muted` class to the anchor element. You can also add the class to a parent element and it will be applied to all `<a>` elements inside it.
 
 ```html
 <a class="uk-link-muted" href="#"></a>

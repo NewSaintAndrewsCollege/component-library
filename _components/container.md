@@ -44,7 +44,7 @@ Add one of the following classes to the container to apply a different max-width
 
 ## Container in sections
 
-You can apply this component to modify the width of content inside sections from the [Section component](section.md).
+You can apply this component to modify the width of content inside sections from the [Section component](section.html).
 
 ```html
 <div class="uk-section uk-section-primary">

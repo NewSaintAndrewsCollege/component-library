@@ -7,7 +7,7 @@ component: Position
 
 To apply this component, add one of the `.uk-position-*` classes to a block element. When using this component to place content on top of an image, add the `.uk-inline` class from the [Utility component](utility.md#inline) to a container element around the image and the element to create a position context.
 
-**Note** This is often used to position an overlay from the [Overlay component](overlay.md). Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) to apply a light or dark color for better visibility.
+**Note** This is often used to position an overlay from the [Overlay component](overlay.html). Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) to apply a light or dark color for better visibility.
 
 | Class                 | Description                          |
 |:----------------------|:-------------------------------------|
@@ -105,14 +105,14 @@ If you want a position element to cover its container, just add the `.uk-positio
 
 ### Outside
 
-There are two classes to center elements outside on the left and right of the parent container. This is useful to position the [Slidenav component](slidenav.md) outside of an [Slideshow](slideshow.md) or [Slider](slider.md) component.
+There are two classes to center elements outside on the left and right of the parent container. This is useful to position the [Slidenav component](slidenav.html) outside of an [Slideshow](slideshow.html) or [Slider](slider.html) component.
 
 | Class                           | Description                                                     |
 |:--------------------------------|:----------------------------------------------------------------|
 | `.uk-position-center-left-out`  | Positions the element vertically centered outside on the left.  |
 | `.uk-position-center-right-out` | Positions the element vertically centered outside on the right. |
 
-**Note** Once the outside positioned element sticks out of the viewport to the right, it will cause a horizontal scrollbar. Use the [Visibility component](visibility.md) to hide the outside positioned element on a smaller viewports and show an inside positioned element instead.
+**Note** Once the outside positioned element sticks out of the viewport to the right, it will cause a horizontal scrollbar. Use the [Visibility component](visibility.html) to hide the outside positioned element on a smaller viewports and show an inside positioned element instead.
 
 ```html
 <div class="uk-position-center-left-out"></div>

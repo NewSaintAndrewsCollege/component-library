@@ -5,7 +5,7 @@ component: Iconnav
 
 ## Usage
 
-To apply this component, add the `.uk-iconnav` class to a `<ul>`  element.  Use `<a>` elements as menu items within the list and add icons from the [Icon component](icon.md). To apply an active state to a menu item, just add the `.uk-active` class.
+To apply this component, add the `.uk-iconnav` class to a `<ul>`  element.  Use `<a>` elements as menu items within the list and add icons from the [Icon component](icon.html). To apply an active state to a menu item, just add the `.uk-active` class.
 
 ```html
 <ul class="uk-iconnav">

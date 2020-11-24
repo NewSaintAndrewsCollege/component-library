@@ -176,7 +176,7 @@ You can also apply one or more custom classes to items when they are being dragg
 <ul uk-sortable="cls-custom: my-class">...</ul>
 ```
 
-**Note** In this example, we are using a nav from the [Nav component](nav.md). When dragging an item it will get a box-shadow and background.
+**Note** In this example, we are using a nav from the [Nav component](nav.html). When dragging an item it will get a box-shadow and background.
 
 {% include example.html content='
 <ul class="uk-nav uk-nav-default uk-width-medium" uk-sortable="cls-custom: uk-box-shadow-small uk-flex uk-flex-middle uk-background">

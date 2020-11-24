@@ -3,7 +3,7 @@ component: Introduction
 ---
 <p class="uk-text-lead">Get familiar with the basic setup and overview of UIkit.</p>
 
-First of all you need to download UIkit. For other packages and links to a CDN, head to the [installation guide](installation.md) to learn more.
+First of all you need to download UIkit. For other packages and links to a CDN, head to the [installation guide](installation.html) to learn more.
 
 <a class="uk-button uk-button-primary" href="https://getuikit.com/download">Download UIkit</a>
 
@@ -11,7 +11,7 @@ First of all you need to download UIkit. For other packages and links to a CDN, 
 
 ## Package contents
 
-The Zip file contains the compiled CSS and JavaScript files, which is everything you need to get started. Later, you might want to [install and compile UIkit](installation.md) yourself and also [create your own UIkit theme](less.md).
+The Zip file contains the compiled CSS and JavaScript files, which is everything you need to get started. Later, you might want to [install and compile UIkit](installation.html) yourself and also [create your own UIkit theme](less.html).
 
 | Folder | Description                                                    |
 |:-------|:---------------------------------------------------------------|

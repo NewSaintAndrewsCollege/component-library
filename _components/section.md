@@ -5,7 +5,7 @@ component: Section
 
 ## Usage
 
-Sections are used to separate the content of a page into differently styled blocks. To apply this component, just add the `.uk-section` class to a container element. You can place a container from the [Container component](container.md) to modify the width of the content inside sections and add horizontal padding. Note that the padding of a nested container will be reset.
+Sections are used to separate the content of a page into differently styled blocks. To apply this component, just add the `.uk-section` class to a container element. You can place a container from the [Container component](container.html) to modify the width of the content inside sections and add horizontal padding. Note that the padding of a nested container will be reset.
 
 ```html
 <div class="uk-section">
@@ -162,7 +162,7 @@ To apply different background colors and paddings, add one of the following clas
 
 ### Preserve color
 
-The `.uk-section-primary` and `.uk-section-secondary` classes are extending the inverse style from the [Inverse component](inverse.md) automatically. If you want to prevent this behavior, for example because you are using [cards](cards.md) in these sections, add the `.uk-preserve-color` class.
+The `.uk-section-primary` and `.uk-section-secondary` classes are extending the inverse style from the [Inverse component](inverse.html) automatically. If you want to prevent this behavior, for example because you are using [cards](cards.html) in these sections, add the `.uk-preserve-color` class.
 
 ```html
 <div class="uk-section uk-section-primary uk-preserve-color"></div>
@@ -205,7 +205,7 @@ You can add different paddings to each section or remove it altogether.
 | `.uk-section-small`           | Add this class to decrease a section's padding.                                        |
 | `.uk-section-large`           | Add this class to increase a section's padding.                                        |
 | `.uk-section-xlarge`          | Add this class to further increase a section's padding.                                |
-| `.uk-padding-remove-vertical` | Add this class from the [Padding component](padding.md) to remove a section's padding. |
+| `.uk-padding-remove-vertical` | Add this class from the [Padding component](padding.html) to remove a section's padding. |
 
 {% include example.html content='
 <div class="uk-section uk-section-large uk-section-muted">

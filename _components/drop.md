@@ -21,7 +21,7 @@ A dropdown can be enabled by hovering and clicking the toggle. Just add the `mod
 </div>
 ```
 
-**Note** The Drop component has no default styling. In this example, we've used a card from the [Card component](card.md) for visualization.
+**Note** The Drop component has no default styling. In this example, we've used a card from the [Card component](card.html) for visualization.
 
 {% include example.html content='
 <div class="uk-inline">
@@ -43,7 +43,7 @@ A dropdown can be enabled by hovering and clicking the toggle. Just add the `mod
 
 ## Grid in drop
 
-You can place a grid from the [Grid component](grid.md) inside a drop. Just wrap the content with a `<div>` element and add the `uk-grid` attribute. If the grid should stack automatically, whenever the drop no longer fits its container, just add the `.uk-drop-grid` class.
+You can place a grid from the [Grid component](grid.html) inside a drop. Just wrap the content with a `<div>` element and add the `uk-grid` attribute. If the grid should stack automatically, whenever the drop no longer fits its container, just add the `.uk-drop-grid` class.
 
 ```html
 <div class="uk-width-large" uk-drop>
@@ -51,7 +51,7 @@ You can place a grid from the [Grid component](grid.md) inside a drop. Just wrap
 </div>
 ```
 
-Use one of the classes from the [Width component](width.md) to adjust the drop's width.
+Use one of the classes from the [Width component](width.html) to adjust the drop's width.
 
 {% include example.html content='
 <button class="uk-button uk-button-default" type="button">Hover</button>
@@ -198,7 +198,7 @@ To define a custom offset between the drop container and the toggle, add the `of
 
 ## Animation
 
-Apply one or more animations to the dropdown by adding the `animation: uk-animation-*` option with one of the classes from the [Animation component](animation.md). You can also determine the animation's duration. Just add the `duration` option with your value.
+Apply one or more animations to the dropdown by adding the `animation: uk-animation-*` option with one of the classes from the [Animation component](animation.html). You can also determine the animation's duration. Just add the `duration` option with your value.
 
 ```html
 <div uk-drop="animation: uk-animation-slide-top-small; duration: 1000"></div>

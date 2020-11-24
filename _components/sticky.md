@@ -67,7 +67,7 @@ To apply the sticky behavior with a delay, add the `top` attribute, which can be
 
 ## Animation
 
-Add an animation from the [Animation component](animation.md) in order to have the sticky element reappear smoothly.
+Add an animation from the [Animation component](animation.html) in order to have the sticky element reappear smoothly.
 
 ```html
 <div uk-sticky="animation: uk-animation-slide-top"></div>

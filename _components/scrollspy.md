@@ -7,7 +7,7 @@ component: Scrollspy
 
 The Scrollspy component listens to page scrolling and trigger events based on the scroll position. For example, if you scroll down a page, and an element appears in the viewport for the first time, you can trigger a smooth animation to fade in the element. Just add the `uk-scrollspy` attribute which takes the following options.
 
-Typically, classes from the [Animation component](animation.md) are used together with the Scrollspy component.
+Typically, classes from the [Animation component](animation.html) are used together with the Scrollspy component.
 
 ```html
 <div uk-scrollspy="cls:uk-animation-fade"></div>
@@ -30,7 +30,7 @@ Typically, classes from the [Animation component](animation.md) are used togethe
 </div>
 ' %}
 
-This example uses the `repeat: true` option. Scroll up and down to see the triggered animations. The layout is made with the [Card component](card.md).
+This example uses the `repeat: true` option. Scroll up and down to see the triggered animations. The layout is made with the [Card component](card.html).
 
 ***
 
@@ -189,7 +189,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 |:-----------|:--------|:---------------------------|:------------------------------------------------------------------------------------------------------|
 | `cls`      | String  | `uk-active`                | Class to add to the active links.                                                                     |
 | `closest`  | String  | `uk-scrollspy-init-inview` | Target to apply the class to.                                                                         |
-| `scroll`   | Boolean | `false`                    | Adds the [Scroll component](scroll.md) to its links.                                                  |
+| `scroll`   | Boolean | `false`                    | Adds the [Scroll component](scroll.html) to its links.                                                  |
 | `overflow` | Boolean | `true`                     | If overflow is set to true, the first or last item will stay active if above or below the navigation. |
 | `offset`   | Number  | `0`                        | Pixel offset added to scroll top.                                                                     |
 

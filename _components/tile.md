@@ -47,7 +47,7 @@ To apply this component, add the `.uk-tile` class to a `<div>` element. By defau
 
 ## Tile and padding
 
-The tile component has some padding by default. To remove this or to apply different spacing, add one of the classes from the [Padding component](padding.md).
+The tile component has some padding by default. To remove this or to apply different spacing, add one of the classes from the [Padding component](padding.html).
 
 ```html
 <div class="uk-tile uk-tile-default uk-padding-large"></div>

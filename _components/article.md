@@ -21,7 +21,7 @@ The article component consists of the article itself, a title and meta data.
 </article>
 ```
 
-Use the `.uk-text-lead` class from the [Text component](text.md) to create a leading paragraph.
+Use the `.uk-text-lead` class from the [Text component](text.html) to create a leading paragraph.
 
 {% include example.html content='
 <article class="uk-article">

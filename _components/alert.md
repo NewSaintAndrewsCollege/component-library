@@ -19,7 +19,7 @@ To apply this component, add the `uk-alert` attribute to a block element.
 
 ## Close button
 
-To create a close button and enable its functionality, add the `.uk-alert-close` class to a `<button>` or `<a>` element inside the alert box. To apply a close icon, add the `uk-close` attribute from the [Close component](close.md).
+To create a close button and enable its functionality, add the `.uk-alert-close` class to a `<button>` or `<a>` element inside the alert box. To apply a close icon, add the `uk-close` attribute from the [Close component](close.html).
 
 ```html
 <div uk-alert>
@@ -78,7 +78,7 @@ Any of these options can be applied to the component attribute. Separate multipl
 
 | Option      | Value           | Default           | Description                                              |
 |:------------|:----------------|:------------------|:---------------------------------------------------------|
-| `animation` | Boolean, String | `true`            | Fade out or use the [Animation component](animation.md). |
+| `animation` | Boolean, String | `true`            | Fade out or use the [Animation component](animation.html). |
 | `duration`  | Number          | `150`             | Animation duration in milliseconds.                      |
 | `sel-close` | CSS selector    | `.uk-alert-close` | The close trigger element.                               |
 

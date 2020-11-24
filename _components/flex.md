@@ -3,7 +3,7 @@ component: Flex
 ---
 <p class="uk-text-lead">Utilize the power of flexbox to create a wide range of layouts.</p>
 
-The Flex component has an essential role in building layouts in UIkit. A lot of components, for example the [Grid](grid.md) as well as horizontal navigations, like the [Navbar](navbar.md), [Subnav](subnav.md), [Breadcrumb](breadcrumb.md), [Pagination](pagination.md), [Tab](tab.md) and [Dotnav](dotnav.md) are built with flexbox and can be used together with the utility classes from this component.
+The Flex component has an essential role in building layouts in UIkit. A lot of components, for example the [Grid](grid.html) as well as horizontal navigations, like the [Navbar](navbar.html), [Subnav](subnav.html), [Breadcrumb](breadcrumb.html), [Pagination](pagination.html), [Tab](tab.html) and [Dotnav](dotnav.html) are built with flexbox and can be used together with the utility classes from this component.
 
 ***
 
@@ -220,7 +220,7 @@ To determine how much space a flex item should take up, add one of the following
 
 ## Flex and grid
 
-The Flex component can be combined with a grid from the [Grid component](grid.md).
+The Flex component can be combined with a grid from the [Grid component](grid.html).
 
 {% include example.html content='
 <div class="uk-flex-middle" uk-grid>

@@ -38,7 +38,7 @@ Add the `.uk-close-large` class for a larger close button.
 
 ## Close in alerts
 
-This is an example of how this component is used with an alert box from the [Alert component](alert.md).
+This is an example of how this component is used with an alert box from the [Alert component](alert.html).
 
 ```html
 <div uk-alert>
@@ -57,7 +57,7 @@ This is an example of how this component is used with an alert box from the [Ale
 
 ## Close in drops
 
-This is an example of how this component is used with the [Drop component](drop.md).
+This is an example of how this component is used with the [Drop component](drop.html).
 
 ```html
 <div uk-drop>
@@ -81,7 +81,7 @@ This is an example of how this component is used with the [Drop component](drop.
 
 ## Close in modals
 
-This is an example of how this component is used with the [Modal component](modal.md).
+This is an example of how this component is used with the [Modal component](modal.html).
 
 ```html
 <div id="modal" uk-modal>

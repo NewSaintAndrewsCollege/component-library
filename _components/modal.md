@@ -55,7 +55,7 @@ Add the `uk-modal` attribute to a `<div>` element to create the modal container 
 
 To create a close button, enable its functionality and add proper styling and positioning, add the `.uk-modal-close-default` class to an `<a>` or `<button>` element. To place the close button outside the modal, add the `.uk-modal-close-outside` class.
 
-Add the `uk-close` attribute from the [Close component](close.md), to apply a close icon.
+Add the `uk-close` attribute from the [Close component](close.html), to apply a close icon.
 
 ```html
 <div id="my-id">
@@ -101,7 +101,7 @@ Add the `uk-close` attribute from the [Close component](close.md), to apply a cl
 
 ## Center modal
 
-To vertically center the modal dialog, you can use the `.uk-margin-auto-vertical` class from the [Margin component](margin.md).
+To vertically center the modal dialog, you can use the `.uk-margin-auto-vertical` class from the [Margin component](margin.html).
 
 ```html
 <div id="my-id" class="uk-flex-top" uk-modal>
@@ -174,7 +174,7 @@ To divide the modal into different content sections, use the following classes.
 
 ## Container modifier
 
-Add the `.uk-modal-container` class to expand the modal dialog to the default [Container](container.md) width.
+Add the `.uk-modal-container` class to expand the modal dialog to the default [Container](container.html) width.
 
 ```html
 <div id="my-id" class="uk-modal-container" uk-modal>...</div>
@@ -206,7 +206,7 @@ To create a modal, that fills the entire page, add the `.uk-modal-full` class. I
 </div>
 ```
 
-Using the [grid](grid.md) and [width](width.md) classes, you can create a nice, split fullscreen modal.
+Using the [grid](grid.html) and [width](width.html) classes, you can create a nice, split fullscreen modal.
 
 {% include example.html content='
 <a class="uk-button uk-button-default" href="#modal-full" uk-toggle>Open</a>
@@ -284,9 +284,9 @@ By default, the page will scroll with the modal, if its content exceeds the wind
 
 ## Media
 
-If you want to display media, you should first check, if the [Lightbox component](lightbox.md) doesn't already offer everything you need. However, you can also use the modal to have more control over the markup to wrap your media in.
+If you want to display media, you should first check, if the [Lightbox component](lightbox.html) doesn't already offer everything you need. However, you can also use the modal to have more control over the markup to wrap your media in.
 
-**Note** Use the `uk-video` attribute from the [Video component](video.md) to make sure videos are stopped when the modal is closed.
+**Note** Use the `uk-video` attribute from the [Video component](video.html) to make sure videos are stopped when the modal is closed.
 
 ```html
 <div uk-modal>

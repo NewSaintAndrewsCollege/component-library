@@ -3,7 +3,7 @@ component: Sass
 ---
 <p class="uk-text-lead">Learn how to modify the UIkit styling and create your own theme with Sass.</p>
 
-When you have [installed UIkit](installation.md) with sources you will find the UIkit Sass version within the _/src/scss_ folder. The Sass version allows you to include customizations in the build process, rather than manually overwriting a lot of CSS rules by hand.
+When you have [installed UIkit](installation.html) with sources you will find the UIkit Sass version within the _/src/scss_ folder. The Sass version allows you to include customizations in the build process, rather than manually overwriting a lot of CSS rules by hand.
 
 **Note** Sass allows two different syntax version: Sass and SCSS. UIkit makes use of the SCSS syntax.
 
@@ -82,7 +82,7 @@ Then, inject additional CSS by using the hook inside your own SCSS file, i.e. to
 
 ### Inverse hooks
 
-Inverse hooks allow you to customize how a component is styled when used in combination with the `.uk-light` or `.uk-dark` modifiers (check out the [Inverse component](inverse.md) for details). These hooks are handled a little differently in the Sass version compared to the Less version. In the Sass version, every component has its own inverse hooks. You can see all available ones when going through the file `src/scss/mixins.scss`.
+Inverse hooks allow you to customize how a component is styled when used in combination with the `.uk-light` or `.uk-dark` modifiers (check out the [Inverse component](inverse.html) for details). These hooks are handled a little differently in the Sass version compared to the Less version. In the Sass version, every component has its own inverse hooks. You can see all available ones when going through the file `src/scss/mixins.scss`.
 
 For example, you can make a default button appear with a custom background whenever it is used as an inverse version.
 

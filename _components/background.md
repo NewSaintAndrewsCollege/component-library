@@ -19,7 +19,7 @@ To apply a background color to an element, add one of the following classes. The
 <div class="uk-background-primary"></div>
 ```
 
-**Note** To adapt your content for better visibility on each background, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md). Use the [Padding component](padding.md) to add some padding to the elements.
+**Note** To adapt your content for better visibility on each background, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html). Use the [Padding component](padding.html) to add some padding to the elements.
 
 {% include example.html content='
 <div class="uk-child-width-1-2@s uk-text-center" uk-grid>

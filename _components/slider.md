@@ -9,7 +9,7 @@ The Slider component is fully responsive and supports touch and swipe navigation
 
 To apply this component, add the `uk-slider` attribute to a container element and create a list of slides with the `.uk-slider-items` class. Add an image or any other content to each item.
 
-To define the widths of the slider items, use the [Width component](width.md). Either apply the `.uk-child-width-*` classes to define the width of all slider items or apply individual widths for each list item using the `.uk-width-*` classes. If no specific width is set, each item's width depends on the dimensions of the content itself.
+To define the widths of the slider items, use the [Width component](width.html). Either apply the `.uk-child-width-*` classes to define the width of all slider items or apply individual widths for each list item using the `.uk-width-*` classes. If no specific width is set, each item's width depends on the dimensions of the content itself.
 
 ```html
 <div uk-slider>
@@ -99,7 +99,7 @@ The `.uk-slider-container` class is responsible for the clipping of the slider i
 
 ## Gap
 
-To apply a gap to the slider items, use the [Grid component](grid.md) and add the `.uk-grid` class to the slider. The elements will then be spaced according to the grid gap. You can use the modifiers like `.uk-grid-small` to change the gap.
+To apply a gap to the slider items, use the [Grid component](grid.html) and add the `.uk-grid` class to the slider. The elements will then be spaced according to the grid gap. You can use the modifiers like `.uk-grid-small` to change the gap.
 
 ```html
 <div uk-slider>
@@ -342,9 +342,9 @@ To navigate through your slides, just use the `uk-slider-item` attribute. To tar
 </div>
 ```
 
-The flexibility of the Slideshow component allows you to use any of the other UIkit components to navigate through items. For example the [Slidenav](slidenav.md), [Dotnav](dotnav.md) and [Thumbnav](thumbnav.md) components can be used to style the slideshow navigations.
+The flexibility of the Slideshow component allows you to use any of the other UIkit components to navigate through items. For example the [Slidenav](slidenav.html), [Dotnav](dotnav.html) and [Thumbnav](thumbnav.html) components can be used to style the slideshow navigations.
 
-If there is no item specific content in the navigation items, you can also add the `.uk-slideshow-nav` class instead of adding navigation items manually. It will generate its items automatically using `<li><a href="#"></a></li>` as markup. This is a useful shortcut when using the [Dotnav](dotnav.md).
+If there is no item specific content in the navigation items, you can also add the `.uk-slideshow-nav` class instead of adding navigation items manually. It will generate its items automatically using `<li><a href="#"></a></li>` as markup. This is a useful shortcut when using the [Dotnav](dotnav.html).
 
 ```html
 <div uk-slider>
@@ -414,13 +414,13 @@ If there is no item specific content in the navigation items, you can also add t
 </div>
 ' %}
 
-**Note** For better visibility of overlaying navigations, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md).
+**Note** For better visibility of overlaying navigations, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html).
 
 ***
 
 ## Navigation outside
 
-To place a navigation outside of a slider, add the `.uk-position-center-left-out` and the `.uk-position-center-right-out` class from the [Position component](position.md) to the `previous` and `next` navigation. Make sure the `.uk-slider-container` class, which is responsible for the clipping of the slider items, doesn't clip the navigation, too.
+To place a navigation outside of a slider, add the `.uk-position-center-left-out` and the `.uk-position-center-right-out` class from the [Position component](position.html) to the `previous` and `next` navigation. Make sure the `.uk-slider-container` class, which is responsible for the clipping of the slider items, doesn't clip the navigation, too.
 
 ```html
 <div uk-slider>
@@ -514,7 +514,7 @@ To place a navigation outside of a slider, add the `.uk-position-center-left-out
 
 Adding the `uk-height-viewport` attribute from the [Height component](height.md#viewport-height) to the list of slider items will stretch the height of the `<ul>` and `<li>` elements to fill the whole viewport height. Since the width and height now aren't defined by the item's content anymore, you have to use absolute positioning for the content.
 
-Use the [Cover component](cover.md) so that images cover the whole item area and are clipped. The `.uk-grid-match` class from the [Grid component](grid.md#match-height) matches the height of the direct child of each item. This is useful in this example, since the child element now applies the same width and height as the list item.
+Use the [Cover component](cover.html) so that images cover the whole item area and are clipped. The `.uk-grid-match` class from the [Grid component](grid.md#match-height) matches the height of the direct child of each item. This is useful in this example, since the child element now applies the same width and height as the list item.
 
 ```html
 <div uk-slider>
@@ -576,7 +576,7 @@ Use the [Cover component](cover.md) so that images cover the whole item area and
 
 ## Content
 
-The slider is not restricted to images. Any content can be used like text, videos, images with text overlays or ken burns effect. Here is an example using the [Card component](card.md).
+The slider is not restricted to images. Any content can be used like text, videos, images with text overlays or ken burns effect. Here is an example using the [Card component](card.html).
 
 {% include example.html content='
 <div uk-slider="center: true">
@@ -657,7 +657,7 @@ The slider is not restricted to images. Any content can be used like text, video
 
 ## Content overlays
 
-Add content overlays using the [Position component](position.md). It allows you to place the content anywhere inside the slide.
+Add content overlays using the [Position component](position.html). It allows you to place the content anywhere inside the slide.
 
 ```html
 <div uk-slider>
@@ -674,7 +674,7 @@ Add content overlays using the [Position component](position.md). It allows you 
 </div>
 ```
 
-**Note** To adapt your content for better visibility on each image, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) or use the [Overlay](overlay.md) to add any style to the overlay box.
+**Note** To adapt your content for better visibility on each image, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) or use the [Overlay](overlay.html) to add any style to the overlay box.
 
 {% include example.html content='
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
@@ -734,7 +734,7 @@ Add content overlays using the [Position component](position.md). It allows you 
 
 Add the `uk-slider-parallax` attribute to any element inside the slides to animate it together with the slider animation. Add an option with the desired animation values for each CSS property you want to animate. Define at least one start and end value. It can be done by passing two values separated by a comma.
 
-This functionality is inherited from the [Parallax component](parallax.md), and it allows to animate CSS properties depending on the scroll position of the slider animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
+This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slider animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
 
 ```html
 <div uk-slider>
@@ -828,7 +828,7 @@ The next example defines different in and out animations. The content slides in 
 
 ## Content transitions
 
-Add `clsActivated: uk-transition-active` to the attribute to trigger transition classes from the [Transition component](transition.md) automatically inside slides. Contrary to the parallax effect, transitions are not attached to the slider animation and start playing independently after the slider animation.
+Add `clsActivated: uk-transition-active` to the attribute to trigger transition classes from the [Transition component](transition.html) automatically inside slides. Contrary to the parallax effect, transitions are not attached to the slider animation and start playing independently after the slider animation.
 
 
 ```html
@@ -850,7 +850,7 @@ Add `clsActivated: uk-transition-active` to the attribute to trigger transition 
 </div>
 ```
 
-Together with the [Overlay component](overlay.md), content transitions are used to build a classic caption for the slider.
+Together with the [Overlay component](overlay.html), content transitions are used to build a classic caption for the slider.
 
 {% include example.html content='
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true">
@@ -913,7 +913,7 @@ Together with the [Overlay component](overlay.md), content transitions are used 
 
 ### Toggle on hover
 
-To toggle transitions on hover, use the `.uk-transition-toggle` class from the [Transition component](transition.md) and `tabindex="0"`. This will trigger the transition when the element is hovered or focused.
+To toggle transitions on hover, use the `.uk-transition-toggle` class from the [Transition component](transition.html) and `tabindex="0"`. This will trigger the transition when the element is hovered or focused.
 
 ```html
 <div uk-slider>

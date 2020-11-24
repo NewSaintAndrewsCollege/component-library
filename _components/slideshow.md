@@ -9,7 +9,7 @@ The Slideshow component is fully responsive and supports touch and swipe navigat
 
 To apply this component, add the `uk-slideshow` attribute to a container element and create a list of slides with the `.uk-slideshow-items` class.
 
-Add an image in the background of each slide using the `uk-cover` attribute from the [Cover component](cover.md).
+Add an image in the background of each slide using the `uk-cover` attribute from the [Cover component](cover.html).
 
 ```html
 <div uk-slideshow>
@@ -328,9 +328,9 @@ To navigate through your slides, just use the `uk-slideshow-item` attribute. To 
 </div>
 ```
 
-The flexibility of the Slideshow component allows you to use any of the other UIkit components to navigate through items. For example the [Slidenav](slidenav.md), [Dotnav](dotnav.md) and [Thumbnav](thumbnav.md) components can be used to style the slideshow navigations.
+The flexibility of the Slideshow component allows you to use any of the other UIkit components to navigate through items. For example the [Slidenav](slidenav.html), [Dotnav](dotnav.html) and [Thumbnav](thumbnav.html) components can be used to style the slideshow navigations.
 
-If there is no item specific content in the navigation items, you can also add the `.uk-slideshow-nav` class instead of adding navigation items manually. It will generate its items automatically using `<li><a href="#"></a></li>` as markup. This is a useful shortcut when using the [Dotnav](dotnav.md).
+If there is no item specific content in the navigation items, you can also add the `.uk-slideshow-nav` class instead of adding navigation items manually. It will generate its items automatically using `<li><a href="#"></a></li>` as markup. This is a useful shortcut when using the [Dotnav](dotnav.html).
 
 ```html
 <div uk-slideshow>
@@ -369,13 +369,13 @@ If there is no item specific content in the navigation items, you can also add t
 </div>
 ' %}
 
-**Note** For better visibility of overlaying navigations, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md).
+**Note** For better visibility of overlaying navigations, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html).
 
 ***
 
 ## Videos
 
-The slideshow is not restricted to images. Other media, like videos, can be positioned in the background of each slide using the `uk-cover` attribute from the [Cover component](cover.md). Videos are muted, and play automatically. The video will pause whenever it's not visible, and resume once it becomes visible again.
+The slideshow is not restricted to images. Other media, like videos, can be positioned in the background of each slide using the `uk-cover` attribute from the [Cover component](cover.html). Videos are muted, and play automatically. The video will pause whenever it's not visible, and resume once it becomes visible again.
 
 ```html
 <div uk-slideshow>
@@ -460,7 +460,7 @@ To add a simple Ken Burns effect, wrap the image with a `div` and add the `.uk-p
 
 ## Content overlays
 
-Add content overlays using the [Position component](position.md). It allows you to place the content anywhere inside the slide.
+Add content overlays using the [Position component](position.html). It allows you to place the content anywhere inside the slide.
 
 ```html
 <div uk-slideshow>
@@ -477,7 +477,7 @@ Add content overlays using the [Position component](position.md). It allows you 
 </div>
 ```
 
-**Note** To adapt your content for better visibility on each image, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) or use the [Overlay](overlay.md) to add any style to the overlay box.
+**Note** To adapt your content for better visibility on each image, add the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) or use the [Overlay](overlay.html) to add any style to the overlay box.
 
 {% include example.html content='
 <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
@@ -527,7 +527,7 @@ Add content overlays using the [Position component](position.md). It allows you 
 
 Add the `uk-slideshow-parallax` attribute to any element inside the slides to animate it together with the slideshow animation. Add an option with the desired animation values for each CSS property you want to animate. Define at least one start and end value. It can be done by passing two values separated by a comma.
 
-This functionality is inherited from the [Parallax component](parallax.md), and it allows to animate CSS properties depending on the scroll position of the slideshow animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
+This functionality is inherited from the [Parallax component](parallax.html), and it allows to animate CSS properties depending on the scroll position of the slideshow animation. Take a look at the [possible properties](parallax.md#animated-properties) that can be animated.
 
 ```html
 <div uk-slideshow>
@@ -662,7 +662,7 @@ The parallax attribute can be used to add additional effects to the slideshow an
 
 ## Content transitions
 
-Transition classes from the [Transition component](transition.md) are triggered automatically inside slides. Contrary to the parallax effect, transitions are not attached to the slideshow animation and start playing independently after the slideshow animation.
+Transition classes from the [Transition component](transition.html) are triggered automatically inside slides. Contrary to the parallax effect, transitions are not attached to the slideshow animation and start playing independently after the slideshow animation.
 
 ```html
 <div uk-slideshow>
@@ -683,7 +683,7 @@ Transition classes from the [Transition component](transition.md) are triggered 
 </div>
 ```
 
-Together with the [Overlay component](overlay.md), content transitions are used to build a classic caption for the slideshow.
+Together with the [Overlay component](overlay.html), content transitions are used to build a classic caption for the slideshow.
 
 {% include example.html content='
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">

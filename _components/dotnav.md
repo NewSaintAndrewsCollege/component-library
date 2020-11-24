@@ -5,7 +5,7 @@ component: Dotnav
 
 ## Usage
 
-To create a navigation with dots, use the following classes. This component is built with Flexbox. So to align a dotnav, you can use [Flex component](flex.md).
+To create a navigation with dots, use the following classes. This component is built with Flexbox. So to align a dotnav, you can use [Flex component](flex.html).
 
 | Class         | Description                                                                                                         |
 |:--------------|:--------------------------------------------------------------------------------------------------------------------|
@@ -54,9 +54,9 @@ The dotnav can also be displayed vertically. Just add the `.uk-dotnav-vertical` 
 
 ## Position as overlay
 
-To position the dotnav on top of an element or the [Slideshow component](slideshow.md) for example, add one of the `.uk-position-*` classes from the [Position component](position.md) to a `div` element wrapping the dotnav. To create a position context on the container, add the `.uk-position-relative` class.
+To position the dotnav on top of an element or the [Slideshow component](slideshow.html) for example, add one of the `.uk-position-*` classes from the [Position component](position.html) to a `div` element wrapping the dotnav. To create a position context on the container, add the `.uk-position-relative` class.
 
-Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md) to apply a light or dark color for better visibility.
+Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.html) to apply a light or dark color for better visibility.
 
 ```html
 <div class="uk-position-relative uk-light">
@@ -100,7 +100,7 @@ Use the `.uk-light` or `.uk-dark` class from the [Inverse component](inverse.md)
 
 ## Vertically center in viewport
 
-The dotnav can also be centered vertically inside your viewport by adding the `.uk-position-center-right` and `.uk-position-fixed` classes from the [Position component](position.md). This is useful for typical onepage websites.
+The dotnav can also be centered vertically inside your viewport by adding the `.uk-position-center-right` and `.uk-position-fixed` classes from the [Position component](position.html). This is useful for typical onepage websites.
 
 ```html
 <div class="uk-position-center-right uk-position-medium uk-position-fixed">

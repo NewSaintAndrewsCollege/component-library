@@ -5,7 +5,7 @@ component: Subnav
 
 ## Usage
 
-To apply this component, use the following classes. To align a subnav, for example to horizontally center it, you can use the [Flex component](flex.md).
+To apply this component, use the following classes. To align a subnav, for example to horizontally center it, you can use the [Flex component](flex.html).
 
 | Class         | Description                                                                                                         |
 |:--------------|:--------------------------------------------------------------------------------------------------------------------|
@@ -31,7 +31,7 @@ To add list items without a link, use a `<span>` element instead of an `<a>`. Al
 </ul>
 ' %}
 
-**Note** For a better layout, if items should wrap into the next row, add the `uk-margin` attribute from the [Margin component](margin.md).
+**Note** For a better layout, if items should wrap into the next row, add the `uk-margin` attribute from the [Margin component](margin.html).
 
 ***
 
@@ -73,7 +73,7 @@ Add the `.uk-subnav-pill` class to highlight the active menu item with a backgro
 
 ## Subnav with Dropdown
 
-You can also use a dropdown from the [Dropdown component](dropdown.md) with a subnav.
+You can also use a dropdown from the [Dropdown component](dropdown.html) with a subnav.
 
 ```html
 <ul class="uk-subnav">

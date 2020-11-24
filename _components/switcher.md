@@ -23,7 +23,7 @@ Typically, the switcher toggles are styled through other components, some of whi
 </ul>
 ```
 
-In this example we are using the [Subnav component](subnav.md).
+In this example we are using the [Subnav component](subnav.html).
 
 {% include example.html content='
 <ul class="uk-subnav uk-subnav-pill" uk-switcher>

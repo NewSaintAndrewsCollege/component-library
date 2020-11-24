@@ -415,7 +415,7 @@ To modify the column width or content, you can use one of the following classes.
 |:--------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | `.uk-table-shrink ` | Add this class to a `<th>` or `<td>` element to reduce the column width to fit its content.                                |
 | `.uk-table-expand`  | Add this class to a `<th>` or `<td>` element to expand the column width to fill the remaining space and apply a min-width. |
-| `.uk-width-*`       | Add one of these classes from the [Width component](width.md) to a `<th>` or `<td>` element to modify the column width.    |
+| `.uk-width-*`       | Add one of these classes from the [Width component](width.html) to a `<th>` or `<td>` element to modify the column width.    |
 
 ```html
 <th class="uk-table-shrink"></th>
@@ -453,10 +453,10 @@ To optimize the display of table cells and their specific content, you can add o
 
 | Class                 | Description                                                      |
 |-----------------------|------------------------------------------------------------------|
-| `.uk-table-link`      | To link an entire cell, add this class to a `<th>`or `<td>` element and insert an `<a>`element. Add the `.uk-link-reset`class from the [Link component](link.md) to reset the default link styling. |
-| `.uk-preserve-width ` | Since images are responsive by default in UIkit, using an image inside a table cell with the `.uk-table-shrink` class would reduce the image width to 0. To prevent this behavior, add the `.uk-preserve-width` class from the [Base component](base.md) to the `<img>` element. |
-| `.uk-text-truncate`   | When applying a fixed width to a table cell, you might want to add this class from the [Text component](text.md) to the `<td>` element to truncate the text. |
-| `.uk-text-nowrap`     | Add this class from the [Text component](text.md) to keep text from wrapping, for example when using the `.uk-table-shrink` class. |
+| `.uk-table-link`      | To link an entire cell, add this class to a `<th>`or `<td>` element and insert an `<a>`element. Add the `.uk-link-reset`class from the [Link component](link.html) to reset the default link styling. |
+| `.uk-preserve-width ` | Since images are responsive by default in UIkit, using an image inside a table cell with the `.uk-table-shrink` class would reduce the image width to 0. To prevent this behavior, add the `.uk-preserve-width` class from the [Base component](base.html) to the `<img>` element. |
+| `.uk-text-truncate`   | When applying a fixed width to a table cell, you might want to add this class from the [Text component](text.html) to the `<td>` element to truncate the text. |
+| `.uk-text-nowrap`     | Add this class from the [Text component](text.html) to keep text from wrapping, for example when using the `.uk-table-shrink` class. |
 
 ```html
 <!-- Table link -->

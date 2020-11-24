@@ -3,13 +3,13 @@ component: Grid
 ---
 <p class="uk-text-lead">Create a fully responsive, fluid and nestable grid layout.</p>
 
-The Grid system of UIkit allows you to arrange block elements in columns. It works closely together with the [Width component](width.md) to determine how much space of the container each item will take up, and it can also be combined with the [Flex component](flex.md) to align and order grid items.
+The Grid system of UIkit allows you to arrange block elements in columns. It works closely together with the [Width component](width.html) to determine how much space of the container each item will take up, and it can also be combined with the [Flex component](flex.html) to align and order grid items.
 
 ***
 
 ## Usage
 
-To create the grid container, add the `uk-grid` attribute to a `<div>` element. Add child `<div>` elements to create the cells. By default, all grid cells are stacked. To place them side by side, add one of the classes from the [Width component](width.md). Using `.uk-child-width-expand` will automatically apply equal width to items, regardless of how many there are.
+To create the grid container, add the `uk-grid` attribute to a `<div>` element. Add child `<div>` elements to create the cells. By default, all grid cells are stacked. To place them side by side, add one of the classes from the [Width component](width.html). Using `.uk-child-width-expand` will automatically apply equal width to items, regardless of how many there are.
 
 **Note** There's no need to add a `.uk-grid` class as it will be added via JavaScript. However, if UIkit's JavaScript is [deferred](https://developer.mozilla.org/docs/Web/HTML/Element/script#attr-defer), the class should be added to prevent stacking while loading.
 
@@ -19,7 +19,7 @@ To create the grid container, add the `uk-grid` attribute to a `<div>` element. 
     <div></div>
 </div>
 ```
-**Note** Often cards from the [Card component](card.md) are used inside a grid. This also goes for the following examples for visualization.
+**Note** Often cards from the [Card component](card.html) are used inside a grid. This also goes for the following examples for visualization.
 
 {% include example.html content='
 <div class="uk-child-width-expand@s uk-text-center" uk-grid>
@@ -205,7 +205,7 @@ Add the `.uk-grid-divider` class to separate grid cells with lines. This class c
 
 ## Match height
 
-To match the height of the direct child of each cell, add the `.uk-grid-match` class. This is needed to match the height of cards from the [Card component](card.md).
+To match the height of the direct child of each cell, add the `.uk-grid-match` class. This is needed to match the height of cards from the [Card component](card.html).
 
 ```html
 <div class="uk-grid-match" uk-grid>....</div>
@@ -292,7 +292,7 @@ For a more specific selection of the elements whose heights should be matched, a
 
 ## Grid and width
 
-The grid is mostly used in combination with the [Width component](width.md). This allows for great flexibility when determining the column widths.
+The grid is mostly used in combination with the [Width component](width.html). This allows for great flexibility when determining the column widths.
 
 ```html
 <div uk-grid>
@@ -340,13 +340,13 @@ If the grid columns are evenly split, you can add one of the `.uk-child-width-*`
 </div>
 ' %}
 
-For more detailed information, take a look at the [Width component](width.md).
+For more detailed information, take a look at the [Width component](width.html).
 
 ***
 
 ## Grid and flex
 
-You can easily combine the grid with the [Flex component](flex.md). That way you can modify the items' alignment, ordering, direction and wrapping. This allows you, for example, to flip the cells' display order for wider viewports. All this works together with the gap and divider modifiers.
+You can easily combine the grid with the [Flex component](flex.html). That way you can modify the items' alignment, ordering, direction and wrapping. This allows you, for example, to flip the cells' display order for wider viewports. All this works together with the gap and divider modifiers.
 
 ```html
 <div class="uk-flex-center" uk-grid>
@@ -426,7 +426,7 @@ If grid cells have different heights, a layout free of gaps can be created by ad
 
 ## Filter and order
 
-Grid items can also be filtered and sorted by category, date or other meta data. Take a look at the [Filter component](filter.md).
+Grid items can also be filtered and sorted by category, date or other meta data. Take a look at the [Filter component](filter.html).
 
 ***
 

@@ -5,7 +5,7 @@ component: Tab
 
 ## Usage
 
-The tab component consists of clickable tabs, that are aligned side by side in a list. Its JavaScript functionality extends the [Switcher component](switcher.md) and is necessary to dynamically transition through different contents using the tabbed navigation.
+The tab component consists of clickable tabs, that are aligned side by side in a list. Its JavaScript functionality extends the [Switcher component](switcher.html) and is necessary to dynamically transition through different contents using the tabbed navigation.
 
 | Class/Attribute | Description                                                                                                          |
 |:----------------|:---------------------------------------------------------------------------------------------------------------------|
@@ -96,7 +96,7 @@ To change the default breakpoint between the vertical and horizontal alignment, 
 
 ## Alignment
 
-You can combine tabs with the [Flex component](flex.md) or the [Width component](width.md) to modify the alignment of the navigations.
+You can combine tabs with the [Flex component](flex.html) or the [Width component](width.html) to modify the alignment of the navigations.
 
 ```html
 <ul class="uk-flex-right" uk-tab>...</ul>
@@ -133,7 +133,7 @@ You can combine tabs with the [Flex component](flex.md) or the [Width component]
 
 ## Tabs and Dropdown
 
-Tabs can be used to trigger a dropdown menu from the [Dropdown component](dropdown.md).
+Tabs can be used to trigger a dropdown menu from the [Dropdown component](dropdown.html).
 
 ```html
 <ul uk-tab>

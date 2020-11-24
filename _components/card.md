@@ -6,7 +6,7 @@ component: Card
 
 ## Usage
 
-The Card component consists of the card itself, the card body and an optional card title. Typically, cards are arranged in grid columns from the [Grid component](grid.md).
+The Card component consists of the card itself, the card body and an optional card title. Typically, cards are arranged in grid columns from the [Grid component](grid.html).
 
 | Class            | Description                                                                    |
 |:-----------------|:-------------------------------------------------------------------------------|
@@ -238,7 +238,7 @@ To display an image inside a card without any spacing, add one of the following 
 
 The `.uk-card-media-left` or the `.uk-card-media-right` classes are used to reset border radius or similar where necessary. They don't create the actual layout.
 
-To do that, you could for example add the `.uk-cover-container` class from the [Cover component](cover.md). Add the `uk-cover` attribute to the image element and use the [Grid](grid.md) and [Width](width.md) components to achieve the alignment. Create a `<canvas>` element with your image's width and height, so that it will retain its dimensions, if the grid stacks on smaller viewports. This is just one way of creating a side by side layout.
+To do that, you could for example add the `.uk-cover-container` class from the [Cover component](cover.html). Add the `uk-cover` attribute to the image element and use the [Grid](grid.html) and [Width](width.html) components to achieve the alignment. Create a `<canvas>` element with your image's width and height, so that it will retain its dimensions, if the grid stacks on smaller viewports. This is just one way of creating a side by side layout.
 
 ```html
 <div class="uk-card uk-card-default uk-child-width-1-2" uk-grid>
@@ -284,7 +284,7 @@ To do that, you could for example add the `.uk-cover-container` class from the [
 
 ## Badge
 
-To position a badge inside a card, add the `.uk-card-badge` class to a container element. To style the badge, you can use one of the other components, for example the [Label](label.md).
+To position a badge inside a card, add the `.uk-card-badge` class to a container element. To style the badge, you can use one of the other components, for example the [Label](label.html).
 
 ```html
 <div class="uk-card uk-card-body">

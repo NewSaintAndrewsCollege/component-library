@@ -275,7 +275,7 @@ Add the `.uk-nav-center` class to center nav items. This can be combined with th
 
 ## Nav in Dropdown
 
-Add the `.uk-dropdown-nav` class to place a nav inside a default dropdown from the [Dropdown component](dropdown.md).
+Add the `.uk-dropdown-nav` class to place a nav inside a default dropdown from the [Dropdown component](dropdown.html).
 
 ```html
 <div uk-dropdown>
@@ -302,7 +302,7 @@ Add the `.uk-dropdown-nav` class to place a nav inside a default dropdown from t
 
 ## Nav in Navbar
 
-Add the `.uk-navbar-dropdown-nav` class to place the nav inside a navbar dropdown from the [Navbar component](navbar.md).
+Add the `.uk-navbar-dropdown-nav` class to place the nav inside a navbar dropdown from the [Navbar component](navbar.html).
 
 ```html
 <div class="uk-navbar-dropdown">
@@ -339,7 +339,7 @@ Add the `.uk-navbar-dropdown-nav` class to place the nav inside a navbar dropdow
 
 ## Nav in Off-canvas
 
-A nav can be used inside an off-canvas from the [Off-canvas component](offcanvas.md). No modifier class needs to be added.
+A nav can be used inside an off-canvas from the [Off-canvas component](offcanvas.html). No modifier class needs to be added.
 
 {% include example.html content='
 <a href="#offcanvas-slide" class="uk-button uk-button-default" uk-toggle>Open</a>

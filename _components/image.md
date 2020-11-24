@@ -30,7 +30,7 @@ The `width` and `height` attributes are required so an empty placeholder can be 
 
 ### Inline SVG
 
-To lazy load SVG images which are injected as inline SVG using the [SVG component](svg.md), make sure to apply the `data-src` option in the component attribute and not as data attribute.
+To lazy load SVG images which are injected as inline SVG using the [SVG component](svg.html), make sure to apply the `data-src` option in the component attribute and not as data attribute.
 
 ```html
 <img width="" height="" alt="" uk-img="data-src:" uk-svg>
@@ -94,7 +94,7 @@ The Image component allows you to use `srcset` for background images. Just add t
 
 ## Target
 
-Usually, the image starts loading when it enters the viewport. To start loading images based on the viewport visibility of another element, use the `target` option. This is very useful to lazy load images in the [Slideshow](slideshow.md) and [Slider](slider.md) components.
+Usually, the image starts loading when it enters the viewport. To start loading images based on the viewport visibility of another element, use the `target` option. This is very useful to lazy load images in the [Slideshow](slideshow.html) and [Slider](slider.html) components.
 
 ```html
 <img data-src="" width="" height="" alt="" uk-img="target: .my-class">

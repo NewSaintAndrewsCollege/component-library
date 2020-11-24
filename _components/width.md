@@ -3,13 +3,13 @@ component: Width
 ---
 <p class="uk-text-lead">Define the width of elements for different viewport sizes.</p>
 
-UIkit's Width component is often used in combination with [grids](grid.md) to split content into responsive columns. You can apply fractions, automatic width or expand units to fill the remaining space and combine these modes.
+UIkit's Width component is often used in combination with [grids](grid.html) to split content into responsive columns. You can apply fractions, automatic width or expand units to fill the remaining space and combine these modes.
 
 ***
 
 ## Usage
 
-Add one of the `.uk-width-*` classes to an element to determine its size. Typically, you would use a grid from the [Grid component](grid.md) and its child elements to create the units.
+Add one of the `.uk-width-*` classes to an element to determine its size. Typically, you would use a grid from the [Grid component](grid.html) and its child elements to create the units.
 
 | Class                              | Description                                           |
 |:-----------------------------------|:------------------------------------------------------|
@@ -226,7 +226,7 @@ You can also combine `.uk-child-width-*` classes with `.uk-width-*` classes for 
 
 ## Responsive width
 
-UIkit provides a number of responsive widths classes. Basically they work just like the usual width classes, except that they have suffixes that represent the breakpoint from which they come to effect. These classes can be combined with the [Visibility component](visibility.md). This is great to adjust your layout and content for different device sizes.
+UIkit provides a number of responsive widths classes. Basically they work just like the usual width classes, except that they have suffixes that represent the breakpoint from which they come to effect. These classes can be combined with the [Visibility component](visibility.html). This is great to adjust your layout and content for different device sizes.
 
 | Class                                       | Description                                                                             |
 |:--------------------------------------------|:----------------------------------------------------------------------------------------|

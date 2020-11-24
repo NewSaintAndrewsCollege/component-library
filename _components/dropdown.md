@@ -5,7 +5,7 @@ component: Dropdown
 
 ## Usage
 
-Basically, a dropdown is a specific case of the [drop](drop.md) that provides its own styling. Any content, like a button, can toggle a dropdown. Just add the `uk-dropdown` attribute to a block element following the toggle.
+Basically, a dropdown is a specific case of the [drop](drop.html) that provides its own styling. Any content, like a button, can toggle a dropdown. Just add the `uk-dropdown` attribute to a block element following the toggle.
 
 ```html
 <button type="button"></button>
@@ -37,7 +37,7 @@ A dropdown can be enabled by hovering and clicking the toggle. Just add the `mod
 
 ## Nav in dropdown
 
-A dropdown can contain a nav from the [Nav component](nav.md). Just add the `.uk-nav` class and the `.uk-dropdown-nav` modifier to a `<ul>` element.
+A dropdown can contain a nav from the [Nav component](nav.html). Just add the `.uk-nav` class and the `.uk-dropdown-nav` modifier to a `<ul>` element.
 
 ```html
 <button type="button"></button>
@@ -65,7 +65,7 @@ A dropdown can contain a nav from the [Nav component](nav.md). Just add the `.uk
 
 ## Grid in dropdown
 
-You can place a grid from the [Grid component](grid.md) inside a dropdown, which can hold a navigation or any other content. Just wrap the content with a `<div>` element and add the `uk-grid` attribute. If the grid should stack automatically, whenever the dropdown no longer fits its container, just add the `.uk-dropdown-grid` class.
+You can place a grid from the [Grid component](grid.html) inside a dropdown, which can hold a navigation or any other content. Just wrap the content with a `<div>` element and add the `uk-grid` attribute. If the grid should stack automatically, whenever the dropdown no longer fits its container, just add the `.uk-dropdown-grid` class.
 
 ```html
 <div class="uk-width-large" uk-dropdown>
@@ -73,7 +73,7 @@ You can place a grid from the [Grid component](grid.md) inside a dropdown, which
 </div>
 ```
 
-Use one of the classes from the [Width component](width.md) to adjust the dropdown's width.
+Use one of the classes from the [Width component](width.html) to adjust the dropdown's width.
 
 {% include example.html content='
 <button class="uk-button uk-button-default" type="button">Hover</button>
@@ -298,7 +298,7 @@ To define a custom offset between the dropdown container and the toggle, add the
 
 ## Animation
 
-Apply one or more animations to the dropdown by adding the `animation: uk-animation-*` option with one of the classes from the [Animation component](animation.md). You can also determine the animation's duration. Just add the `duration` option with your value.
+Apply one or more animations to the dropdown by adding the `animation: uk-animation-*` option with one of the classes from the [Animation component](animation.html). You can also determine the animation's duration. Just add the `duration` option with your value.
 
 ```html
 <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000"></div>

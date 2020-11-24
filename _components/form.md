@@ -161,7 +161,7 @@ Add one of the following classes to an `<input>`, `<select>` or `<textarea>` ele
 </form>
 ' %}
 
-You can also apply the `.uk-width-*` classes from the [Width component](width.md) to form controls.
+You can also apply the `.uk-width-*` classes from the [Width component](width.html) to form controls.
 
 {% include example.html content='
 <form>
@@ -292,7 +292,7 @@ Use the `.uk-form-controls-text` class to better align checkboxes and radio butt
 
 ## Form and icons
 
-You use an icon from the [Icon component](icon.md) inside a form. Add the `.uk-form-icon` class to a `<span>` element. Group it with an `<input>` element by adding the `.uk-inline` class from the [Utility component](utility.md#inline) to a container element around both. The icon has to come first in the markup. By default, the icon will be placed on the left side of the form. To change the alignment, add the `.uk-form-icon-flip` class.
+You use an icon from the [Icon component](icon.html) inside a form. Add the `.uk-form-icon` class to a `<span>` element. Group it with an `<input>` element by adding the `.uk-inline` class from the [Utility component](utility.md#inline) to a container element around both. The icon has to come first in the markup. By default, the icon will be placed on the left side of the form. To change the alignment, add the `.uk-form-icon-flip` class.
 
 ```html
 <div class="uk-inline">
@@ -358,7 +358,7 @@ To enable an action, for example opening a modal to pick an image or link, use a
 
 ## Form and grid
 
-You can also use the [Grid](grid.md) and [Width](width.md) components to define the layout of a form.
+You can also use the [Grid](grid.html) and [Width](width.html) components to define the layout of a form.
 
 {% include example.html content='
 <form class="uk-grid-small" uk-grid>
