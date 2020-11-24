@@ -19,10 +19,10 @@ Using the `uk-svg` attribute also allows you to inject a symbol from the SVG fil
 
 {% include example.html content='
 <!-- Targets the SVG image -->
-<img src="../assets/uikit/src//component-library/images/icons/cloud-download.svg" width="40" height="40" uk-svg>
+<img src="https://raw.githubusercontent.com/uikit/uikit/develop/src/images/icons/cloud-download.svg" width="40" height="40" uk-svg>
 
 <!-- Targets a symbol inside the SVG image -->
-<img src="../assets/uikit/tests//component-library/images/icons.svg#cloud-upload" width="40" height="40" uk-svg>
+<img src="https://raw.githubusercontent.com/uikit/uikit/develop/src/images/icons/icons.svg#cloud-upload" width="40" height="40" uk-svg>
 ' %}
 
 **Note** SVGs will adapt the current color for their stroke and fill color. To prevent this behavior, add the `.uk-preserve` class to the SVG itself or the elements inside the SVG.
