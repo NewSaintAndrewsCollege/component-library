@@ -36,4 +36,4 @@ If you create an icon with an existing name, you will overwrite the default icon
 
 If your icon uses a name that has not been used before, it will be added as a new icon. For example, `/custom/icons/example.svg` will create a new icon that can be used via `<span uk-icon="example"></span>`.
 
-To check which names are already in use, look in the two directories `/src/images/components` and `/src/images/icons`. When you create a new icon, make sure the same name is not used in either of these two folder. Otherwise, it will overwrite the included icon.
+To check which names are already in use, look in the two directories `/src//component-library/images/components` and `/src//component-library/images/icons`. When you create a new icon, make sure the same name is not used in either of these two folder. Otherwise, it will overwrite the included icon.

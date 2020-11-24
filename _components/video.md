@@ -22,7 +22,7 @@ To apply this component, add the `uk-video` attribute to a `<video>` element. Th
 {% include example.html content='
 <button class="uk-button uk-button-default uk-margin" type="button" uk-toggle="target: +">Toggle HTML5 Video</button>
 
-<video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" controls playsinline hidden uk-video></video>
+<video src="https://yootheme.com/site//component-library/images/media/yootheme-pro.mp4" controls playsinline hidden uk-video></video>
 ' %}
 
 ***
@@ -36,7 +36,7 @@ To play a video when it enters the viewport and pause it again when it leaves th
 ```
 
 {% include example.html content='
-<video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
+<video src="https://yootheme.com/site//component-library/images/media/yootheme-pro.mp4" loop muted playsinline uk-video="autoplay: inview"></video>
 ' %}
 
 ***

@@ -17,7 +17,7 @@ To apply this component, add the `uk-lightbox` attribute to a container to turn 
 
 {% include example.html content='
 <div uk-lightbox>
-    <a class="uk-button uk-button-default" href="images/photo.jpg">Open Lightbox</a>
+    <a class="uk-button uk-button-default" href="/component-library/images/photo.jpg">Open Lightbox</a>
 </div>
 ' %}
 
@@ -35,7 +35,7 @@ To add an `alt` attribute to the image in the lightbox, set the `data-alt` attri
 
 {% include example.html content='
 <div uk-lightbox>
-    <a class="uk-button uk-button-default" href="images/photo.jpg" data-alt="Image">Open Lightbox</a>
+    <a class="uk-button uk-button-default" href="/component-library/images/photo.jpg" data-alt="Image">Open Lightbox</a>
 </div>
 ' %}
 
@@ -53,7 +53,7 @@ To display a caption at the bottom of the lightbox, set the `data-caption` attri
 
 {% include example.html content='
 <div uk-lightbox>
-    <a class="uk-button uk-button-default" href="images/photo.jpg" data-caption="Caption">Open Lightbox</a>
+    <a class="uk-button uk-button-default" href="/component-library/images/photo.jpg" data-caption="Caption">Open Lightbox</a>
 </div>
 ' %}
 
@@ -73,18 +73,18 @@ By default, the Lightbox gallery uses a slide animation. You can set the `animat
 <div class="uk-h3">Slide</div>
 <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: slide">
     <div>
-        <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
-            <img src="images/photo.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/photo.jpg" data-caption="Caption 1">
+            <img src="/component-library/images/photo.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/dark.jpg" data-caption="Caption 2">
-            <img src="images/dark.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/dark.jpg" data-caption="Caption 2">
+            <img src="/component-library/images/dark.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/light.jpg" data-caption="Caption 3">
-            <img src="images/light.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/light.jpg" data-caption="Caption 3">
+            <img src="/component-library/images/light.jpg" alt="">
         </a>
     </div>
 </div>
@@ -92,18 +92,18 @@ By default, the Lightbox gallery uses a slide animation. You can set the `animat
 <div class="uk-h3">Fade</div>
 <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: fade">
     <div>
-        <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
-            <img src="images/photo.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/photo.jpg" data-caption="Caption 1">
+            <img src="/component-library/images/photo.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/dark.jpg" data-caption="Caption 2">
-            <img src="images/dark.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/dark.jpg" data-caption="Caption 2">
+            <img src="/component-library/images/dark.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/light.jpg" data-caption="Caption 3">
-            <img src="images/light.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/light.jpg" data-caption="Caption 3">
+            <img src="/component-library/images/light.jpg" alt="">
         </a>
     </div>
 </div>
@@ -111,18 +111,18 @@ By default, the Lightbox gallery uses a slide animation. You can set the `animat
 <div class="uk-h3">Scale</div>
 <div class="uk-child-width-1-3@m" uk-grid uk-lightbox="animation: scale">
     <div>
-        <a class="uk-inline" href="images/photo.jpg" data-caption="Caption 1">
-            <img src="images/photo.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/photo.jpg" data-caption="Caption 1">
+            <img src="/component-library/images/photo.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/dark.jpg" data-caption="Caption 2">
-            <img src="images/dark.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/dark.jpg" data-caption="Caption 2">
+            <img src="/component-library/images/dark.jpg" alt="">
         </a>
     </div>
     <div>
-        <a class="uk-inline" href="images/light.jpg" data-caption="Caption 3">
-            <img src="images/light.jpg" alt="">
+        <a class="uk-inline" href="/component-library/images/light.jpg" data-caption="Caption 3">
+            <img src="/component-library/images/light.jpg" alt="">
         </a>
     </div>
 </div>
@@ -145,8 +145,8 @@ A lightbox is not restricted to images. Other media, like videos, can be display
 
 {% include example.html content='
 <div uk-lightbox>
-    <a class="uk-button uk-button-default" href="images/photo.jpg" data-caption="Image">Image</a>
-    <a class="uk-button uk-button-default" href="https://yootheme.com/site/images/media/yootheme-pro.mp4" data-caption="Video">Video</a>
+    <a class="uk-button uk-button-default" href="/component-library/images/photo.jpg" data-caption="Image">Image</a>
+    <a class="uk-button uk-button-default" href="https://yootheme.com/site//component-library/images/media/yootheme-pro.mp4" data-caption="Video">Video</a>
     <a class="uk-button uk-button-default" href="https://www.youtube.com/watch?v=c2pz2mlSfXA" data-caption="YouTube">YouTube</a>
     <a class="uk-button uk-button-default" href="https://vimeo.com/1084537" data-caption="Vimeo">Vimeo</a>
     <a class="uk-button uk-button-default" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4740.819266853735!2d9.99008871708242!3d53.550454675412404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f9d24afe84a0263!2sRathaus!5e0!3m2!1sde!2sde!4v1499675200938" data-caption="Google Maps" data-type="iframe">Google Maps</a>
@@ -255,7 +255,7 @@ If you only want to use the lightbox panel directly through the JS API, you can 
 | `index`             | Number  | `0`            | The initial item to show. (zero based)                                                |
 | `velocity`          | Number  | `2`            | The animation velocity (pixel/ms).                                                    |
 | `preload`           | Number  | `1`            | The number of items to preload. (left and right of the currently active item)         |
-| `items`             | Array   | `[]`           | An array of items to display, e.g. `[{source: 'images/size1.jpg', caption: '900x600'}]` |
+| `items`             | Array   | `[]`           | An array of items to display, e.g. `[{source: '/component-library/images/size1.jpg', caption: '900x600'}]` |
 | `template`          | String  | Default markup | The template string.                                                                  |
 | `delay-controls`    | Number  | `3000`         | Delay time before controls fade out in ms.                                            |
 | `container` | String | `body` | Define a target container via a selector to specify where the Lightbox should be appended in the DOM. |

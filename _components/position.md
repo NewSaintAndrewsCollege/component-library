@@ -29,7 +29,7 @@ To apply this component, add one of the `.uk-position-*` classes to a block elem
 {% include example.html content='
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-top uk-overlay uk-overlay-default uk-text-center">Top</div>
     <div class="uk-position-bottom uk-overlay uk-overlay-default uk-text-center">Bottom</div>
@@ -65,7 +65,7 @@ You can also apply more specific positions that won't spread over one side of th
 {% include example.html content='
 <div class="uk-inline">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-top-left uk-overlay uk-overlay-default">Top Left</div>
     <div class="uk-position-top-center uk-overlay uk-overlay-default">Top Center</div>
@@ -94,7 +94,7 @@ If you want a position element to cover its container, just add the `.uk-positio
 {% include example.html content='
 <div class="uk-inline">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">Cover</div>
 
@@ -121,7 +121,7 @@ There are two classes to center elements outside on the left and right of the pa
 {% include example.html content='
 <div class="uk-inline">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-center-left-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
     <div class="uk-position-center-right-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
@@ -142,7 +142,7 @@ To apply a small margin to positioned elements, add the `.uk-position-small` cla
 {% include example.html content='
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-small uk-position-top-left uk-overlay uk-overlay-default">Top Left</div>
     <div class="uk-position-small uk-position-top-center uk-overlay uk-overlay-default">Top Center</div>
@@ -158,7 +158,7 @@ To apply a small margin to positioned elements, add the `.uk-position-small` cla
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-small uk-position-top uk-overlay uk-overlay-default uk-text-center">Top</div>
     <div class="uk-position-small uk-position-bottom uk-overlay uk-overlay-default uk-text-center">Bottom</div>
@@ -169,7 +169,7 @@ To apply a small margin to positioned elements, add the `.uk-position-small` cla
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-small uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">Cover</div>
 
@@ -178,7 +178,7 @@ To apply a small margin to positioned elements, add the `.uk-position-small` cla
 <div class="uk-margin uk-text-center">
     <div class="uk-inline-block uk-width-large">
 
-        <img src="images/photo.jpg" alt="">
+        <img src="/component-library/images/photo.jpg" alt="">
 
         <div class="uk-position-small uk-position-center-left-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
         <div class="uk-position-small uk-position-center-right-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
@@ -200,7 +200,7 @@ To apply a medium margin to positioned elements, add the `.uk-position-medium` c
 {% include example.html content='
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-medium uk-position-top-left uk-overlay uk-overlay-default">Top Left</div>
     <div class="uk-position-medium uk-position-top-center uk-overlay uk-overlay-default">Top Center</div>
@@ -216,7 +216,7 @@ To apply a medium margin to positioned elements, add the `.uk-position-medium` c
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-medium uk-position-top uk-overlay uk-overlay-default uk-text-center">Top</div>
     <div class="uk-position-medium uk-position-bottom uk-overlay uk-overlay-default uk-text-center">Bottom</div>
@@ -227,7 +227,7 @@ To apply a medium margin to positioned elements, add the `.uk-position-medium` c
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-medium uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">Cover</div>
 
@@ -236,7 +236,7 @@ To apply a medium margin to positioned elements, add the `.uk-position-medium` c
 <div class="uk-margin uk-text-center">
     <div class="uk-inline-block uk-width-large">
 
-        <img src="images/photo.jpg" alt="">
+        <img src="/component-library/images/photo.jpg" alt="">
 
         <div class="uk-position-medium uk-position-center-left-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
         <div class="uk-position-medium uk-position-center-right-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
@@ -258,7 +258,7 @@ To apply a large margin to positioned elements, add the `.uk-position-large` cla
 {% include example.html content='
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-large uk-position-top-left uk-overlay uk-overlay-default">Top Left</div>
     <div class="uk-position-large uk-position-top-center uk-overlay uk-overlay-default">Top Center</div>
@@ -274,7 +274,7 @@ To apply a large margin to positioned elements, add the `.uk-position-large` cla
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-large uk-position-top uk-overlay uk-overlay-default uk-text-center">Top</div>
     <div class="uk-position-large uk-position-bottom uk-overlay uk-overlay-default uk-text-center">Bottom</div>
@@ -285,7 +285,7 @@ To apply a large margin to positioned elements, add the `.uk-position-large` cla
 
 <div class="uk-inline uk-margin">
 
-    <img src="images/photo.jpg" alt="">
+    <img src="/component-library/images/photo.jpg" alt="">
 
     <div class="uk-position-large uk-position-cover uk-overlay uk-overlay-default uk-flex uk-flex-center uk-flex-middle">Cover</div>
 
@@ -294,7 +294,7 @@ To apply a large margin to positioned elements, add the `.uk-position-large` cla
 <div class="uk-margin uk-text-center">
     <div class="uk-inline-block uk-width-large">
 
-        <img src="images/photo.jpg" alt="">
+        <img src="/component-library/images/photo.jpg" alt="">
 
         <div class="uk-position-large uk-position-center-left-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>
         <div class="uk-position-large uk-position-center-right-out uk-overlay uk-overlay-primary uk-visible@s">Out</div>

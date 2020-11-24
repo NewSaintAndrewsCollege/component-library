@@ -18,7 +18,7 @@ To have an image cover its parent element, add the `.uk-cover-container` class t
 
 {% include example.html content='
 <div class="uk-cover-container uk-height-medium">
-    <img src="images/dark.jpg" alt="" uk-cover>
+    <img src="/component-library/images/dark.jpg" alt="" uk-cover>
 </div>
 ' %}
 
@@ -38,7 +38,7 @@ The Cover component inherits all properties from the [Video component](video.md)
 
 {% include example.html content='
 <div class="uk-cover-container uk-height-medium">
-    <video src="https://yootheme.com/site/images/media/yootheme-pro.mp4" autoplay loop muted playsinline uk-cover></video>
+    <video src="https://yootheme.com/site//component-library/images/media/yootheme-pro.mp4" autoplay loop muted playsinline uk-cover></video>
 </div>
 ' %}
 
@@ -76,7 +76,7 @@ To add responsive behavior to your cover image, you need to create an invisible 
 {% include example.html content='
 <div class="uk-cover-container">
     <canvas width="400" height="200"></canvas>
-    <img src="images/dark.jpg" alt="" uk-cover>
+    <img src="/component-library/images/dark.jpg" alt="" uk-cover>
 </div>
 ' %}
 

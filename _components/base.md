@@ -56,7 +56,7 @@ Resize the browser window to see the responsive behavior of the image.
 
 {% include example.html content='
 <div class="uk-width-large">
-    <img src="images/photo.jpg" alt="Image">
+    <img src="/component-library/images/photo.jpg" alt="Image">
 </div>
 ' %}
 

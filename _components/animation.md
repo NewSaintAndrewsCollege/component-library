@@ -274,12 +274,12 @@ By default the animation starts on page load. In this example we used the [Scrol
 <div class="uk-child-width-1-2@s uk-grid-small" uk-grid>
     <div>
         <div class="uk-overflow-hidden">
-            <img src="images/dark.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            <img src="/component-library/images/dark.jpg" alt="Example image" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
         </div>
     </div>
     <div>
         <div class="uk-overflow-hidden">
-            <img src="images/dark.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+            <img src="/component-library/images/dark.jpg" alt="Example image" class="uk-animation-reverse uk-transform-origin-top-right" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
         </div>
     </div>
 </div>
@@ -308,10 +308,10 @@ A much easier way is to use the [SVG component](svg.md) by adding `uk-svg="strok
 {% include example.html content='
 <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
     <div class="uk-animation-toggle" tabindex="0">
-        <img class="uk-animation-stroke" width="400" height="400" src="images/strokes.svg" alt="" uk-svg="stroke-animation: true">
+        <img class="uk-animation-stroke" width="400" height="400" src="/component-library/images/strokes.svg" alt="" uk-svg="stroke-animation: true">
     </div>
     <div class="uk-animation-toggle" tabindex="0">
-        <img class="uk-animation-stroke uk-animation-reverse" width="400" height="400" src="images/strokes.svg" alt="" uk-svg="stroke-animation: true">
+        <img class="uk-animation-stroke uk-animation-reverse" width="400" height="400" src="/component-library/images/strokes.svg" alt="" uk-svg="stroke-animation: true">
     </div>
 </div>
 ' %}
