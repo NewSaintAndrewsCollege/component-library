@@ -7,7 +7,7 @@ layout: default
       style="position: fixed; top: 160px; width: 200px;">
       <ul class="uk-position-fixed uk-height-1-1 uk-padding uk-padding-remove-top uk-nav uk-nav-default uk-nav-parent-icon" style="overflow-y:scroll">
         {% for component in site.components %}
-        <li{% if component.component == page.component %} class="uk-active"{% endif %}><a href="{{ component.url }}">{{ component.component }}</a></li>
+        <li{% if component.component == page.component %} class="uk-active"{% endif %}><a href="{{ component.url | relative_url }}">{{ component.component }}</a></li>
         {% endfor %}
       </ul>
     </div>
@@ -15,9 +15,7 @@ layout: default
   <div class="uk-width-expand">
     <div class="uk-section">
       <div class="uk-container">
-        <a class="uk-text-link" href="#{{ page.component | slugify }}" id="{{ page.component | slugify }}">
-          <h1 style="margin-top:80px">{{ page.component }}</h1>
-        </a>
+        <h1 style="margin-top:80px">{{ page.component }}</h1>
         {{ content | markdownify }}
       </div>
       <hr>
